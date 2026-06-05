@@ -8,7 +8,7 @@ a:active	{ color: #CC0000; text-decoration: none; }
 
 body	{
 	background-color: #000000;
-	background-image: url(starfield.gif);
+	/* background-image: url(starfield.gif);*/
 	color: #6600FF;
 	font-family: verdana, sans-serif;
 	font-size: 10px;

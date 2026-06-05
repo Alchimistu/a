@@ -52,7 +52,6 @@ h3.post {
 	margin-top: 16px;
 }
 
-
 body {
 	background: #DDD ;
 	color: #000000;
@@ -61,9 +60,6 @@ body {
 	padding: 0px;
 	text-align: center;
 }
-
-
-
 
 div.header 	{
 	background: #CCDDEE;
@@ -117,7 +113,6 @@ div.refs	 	{
 	margin: 20px;
 	padding: 10px 10px 20px 10px;
 }
-
 
 .tbl  {
 	background: #DDD;
