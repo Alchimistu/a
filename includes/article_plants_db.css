@@ -1,0 +1,45 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; }
+	#message a:link { color: #990000; }
+	#message a:visited { color: #990000; }
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+
+	
+/* Required - Editable */
+#main-frame { background-color: #444444; border-top: 1px solid #444444; } /* sets background color of sidenav or border */
+#content-outer-frame { color: #b0b0b0; background-color: #000000; border-left: 1px solid #777777; }
+	/* sets background color and font of content area */
+	/* border-left required in IE6 or single line headers won't show up */
+	a:link { color: #99708f; }
+	a:visited {color: #8170a9; }
+#footer-frame { background-color: #000000; } /* sets background color of footer.  set same as content area */
+body { background-color: #000000; } /* sets background color below footer on short pages.  set same as content area */
+
+	
+/* TITLE SECTION */
+.ts-title { font: 700 2.1em georgia,"times new roman",serif; }
+.ts-author { color: #888888; }
+.ts-author2 { color: #888888; }
+.ts-translator { color: #888888; }
+.ts-editor { color: #888888; }
+.ts-ver-date { color: #888888; }
+.ts-source { color: #888888; }
+.ts-pdf { color: #888888; }
+	
+	
+/* Body */
+.ts-citation { border-top: 2px solid #777777; }
+.content-section { border-top: 2px solid #777777; } /* set border color same as ts-citation */
+.ts-line { border: 2px solid #777777; }
+
+.pullquote-left1 { border-top: 2px solid #b0b0b0; border-bottom: 2px solid #b0b0b0;}
+.pullquote-right1 { border-top: 2px solid #b0b0b0; border-bottom: 2px solid #b0b0b0;}
+.pullquote-text { font: 700 .9em georgia,"times new roman",serif; color: #818199; }
+.pullquote-sig { font: 700 .9em georgia,"times new roman",serif; color: #818199; }
+
+
+/* Summary Pages */
+.section-title1 { background-color: #9f9faa; border-top: 2px solid #222255; border-bottom: 2px solid #222255; } 
+.section-title1 a:link { color: #5f5f7a; }
+.section-title1 a:visited { color: #5f5f7a; }  		/* sets colors for smarts summary sub-heads */
+

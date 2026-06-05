@@ -1,0 +1,167 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; line-height: 1.2em; }
+	#message a:link { color: #ccaa00; }
+	#message a:visited { color: #ccaa00; }
+
+	
+/* Required - Editable */
+#main-frame { background-color: #030000; height: auto; border-top: 1px solid black; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #f1f1f5; border-left: 1px solid #f1f1f5; } 
+	/* sets colors of main content area */
+	/* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #f1f1f5; } /* sets background color of footer.  set same as content area */
+body { background-color: #f1f1f5; } /* sets background color below footer on short pages.  set same as content area */
+#content-outer-frame { color: #000011; } /* set font color of content area */
+	a:link { color: #111191; }
+	a:visited {color: #334477; }
+#content-body-frame { text-align: center; margin-left: auto; margin-right: auto; }
+
+
+/* Title Section */
+.title-section { text-align: center; border: 0px solid blue; margin-bottom: 28px; }
+.ts-title-pre { font: 700 14pt arial,sans-serif; text-align: center; }
+.ts-title { font: 500 2.3em georgia,"times new roman",serif; text-align: center; }
+.ts-substance-name { font: 500 2.3em georgia,"times new roman",serif; letter-spacing: .02em; text-align: center; border: 0px solid blue; margin-bottom: 6px; }
+.ts-title-sub { font: 700 14pt arial,sans-serif; text-align: center; margin-bottom: 20px; }
+.ts-space { margin-bottom: 12px; }
+
+
+/* Data Summary Card - On Section & Topic Indexes */
+.summary-card { width: 633px; margin-top: 15px; margin-left: auto; margin-right: auto; }
+	.summary-card:after { clear: both; }
+.summary-card-text-surround { text-align: left; padding-top: 14px; padding-bottom: 6px; padding-left: 14px; padding-right: 14px; }
+.summary-card-topic-image { float: right; margin-left: 15px; margin-bottom: 15px; padding-right: 0px; padding-top: 0px; }
+.sum-head1, .sum-head2, .sum-head3, .sum-head4, .sum-head5 { font: 700 10pt arial,sans-serif; text-align: left; padding-left: 5px; }
+.sum-head1, .sum-head2, .sum-head3 { width: 350px; border: 0px solid blue; }
+.sum-head4, .sum-head5 { }
+
+.summary-card-description { text-align: left; padding-top: 8px; padding-bottom: 8px; padding-left: 14px; padding-right: 8px; border: 0px solid blue; }
+.summary-card-section-image { float: right; }
+.summary-text { font: 700 9pt arial,sans-serif; height: 120px; width: 390px; margin-bottom: 4px; border: 0px solid yellow; }
+
+
+/* Topic Index Chart - On Section Indexes */
+.topic-chart-surround { text-align: left; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 20px; padding: 0px; border: 2px solid #8888aa; }
+.topic-chart-title { font: 700 9pt arial,sans-serif; letter-spacing: .05em; text-align: center; height: 25px; background-color: #888899; color: #000000; border: 1px solid #222222;}
+.topic-surround td { padding: 3px; background-color: #000000; color: #999999; }
+.topic-name { font: 700 9pt arial,sans-serif; width: 175px; letter-spacing: .05em; border: 1px solid #888891; }	
+.topic-common { font: 700 9pt arial,sans-serif; width: 210px; border: 1px solid #888891; }
+.topic-desc { font: 700 8pt arial,sans-serif; width: 200px; border: 1px solid #888891; }
+.topic-chart-surround a:link { color: #cc9900; }
+.topic-chart-surround a:visited { color: #cc7700; }
+
+
+/* Research Section */
+.research-surround { margin-bottom: 40px; }
+.research-message { font: 500 11pt arial,sans-serif; letter-spacing: .03em; width: 624px; margin-right: auto; margin-left: auto; margin-top: 28px; padding: 7px; border: 3px solid #555555; background-color: #224400; text-align: left; line-height: 18px; border-radius: 8px; text: #e6e6e6;}
+.research-message .research-button-surround { text-align: center; padding-top: 4px; }
+
+.button-research { padding: 0px; padding-right: 7px; padding-left: 7px; margins: 0px; }
+.button-research {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #d1d1d1) );
+	background:-moz-linear-gradient( center top, #f0f0f0 5%, #d1d1d1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#d1d1d1');
+	background-color:#f0f0f0;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #aaaaaa;
+	display:inline-block;
+	color:#222222;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	height:23px;
+	line-height:22px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.button-research:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d1d1d1), color-stop(.9, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #d1d1d1 5%, #f0f0f0 90% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1d1d1', endColorstr='#f0f0f0');
+	background-color:#d1d1d1;
+}.button-research:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Timely Message */
+.timely-message-surround { margin-bottom: 40px; }	
+.timely-message-title { }
+.timely-message-title-caution { font: 700 12pt arial, sans-serif;  text-align:center; text-transform: uppercase; }
+.timely-message { font: 500 .9em arial,sans-serif; letter-spacing: .03em; width: 700px; margin-right: auto; margin-left: auto; margin-top: 28px; padding-top: 4px; padding-bottom: 4px; border-top: 2px solid #444477; border-bottom: 2px solid #444477; }
+
+
+/* Links */
+.links-list { margin-top: 38px; }
+.ish { font: 500 1.3em georgia,"times new roman",serif; letter-spacing: .01em; padding-bottom: 5px; color: #222222; }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+.pa { font: 500 .5em arial,sans-serif; color: #888888; }
+
+.link-int, .link-ext { font: 500 1.0em arial,sans-serif; line-height: 1.4em; }
+	.link-int a:link, .link-ext a:link { color: #112288; text-decoration: none; }      
+		/* set same as topic-chart-surround links - sets main links*/
+	.link-int a:visited, .link-ext a:visited { color: #772277; text-decoration: none; }  
+		/* set same as topic-chart-surround links */
+	.link-int a:hover, .link-ext a:hover { text-decoration: underline; }   
+		/* set same as topic-chart-surround links */
+.non-link { font: 500 1.0em arial,sans-serif; color: #444444; line-height: 1.4em; } /* sets non-linked text in links-lists */	
+	.link-int:after { content: " " url("../images/logo_small_lb.gif"); } /* adds logo after local links in mozilla */
+	.more a:link { font: 700 .9em georgia,"times new roman",serif; color: #222244; } /* set font color of more links */
+	.more a:visited { font: 700 .9em georgia,"times new roman",serif; color: #222244; }	
+
+.offsite-outer { border: 2px solid #554455; }
+.offsite-inner { color: #331111; border: 1px solid #664466; }
+
+
+/* Body - On Unusual Section Indexes */
+.index-text-outer { font: 500 1em arial,sans-serif; border-top: 1px solid #555555; border-bottom: 1px solid #555555; padding-top: 12px; padding-bottom: 12px; margin-bottom: 25px; }
+
+
+/* Topic Summary Table - On Summary Indexes */
+.substance-link-table { text-align: center; border: 2px solid #8888aa; }
+.substance-link-table .cell-title { font: 700 10pt arial,sans-serif; height: 26px; }
+.substance-link-table th { font: 700 9pt arial,sans-serif; width: 106px; height: 24px; padding-left: 5px; padding-right: 5px; margin-bottom: 30px; color: #888888;}
+.substance-link-table td { font: 700 9pt arial,sans-serif; height: 24px; padding-left: 5px; padding-right: 5px; margin-bottom: 30px; color: #888888; }
+	.substance-link-table a:link { color: #cc9900; }
+	.substance-link-table a:visited { color: #cc7700; }
+
+
+/* Required - Defines Index Page Special Column Format  */
+.index-cols-line { }
+.index-links-cols { text-align: center; border: 0px solid red; }
+.links-cols-container1 { width: 260px; margin-left: auto; margin-right: auto; padding-top: 6px; padding-bottom: 6px; border: 0px solid blue; }
+.links-cols-container2 { width: 555px; text-align: center; margin-left: auto; margin-right: auto; padding-top: 6px; padding-bottom: 6px; border: 0px solid orange; }
+.links-cols-float { float: left; display: inline; width:250px; margin-top: 6px; margin-bottom: 6px; margin-left: 12px; margin-right: 12px; text-align: left; border: 0px solid yellow; }
+.links-cols-title { font: 700 10pt arial,sans-serif; padding-bottom: 1px; padding-top: 1px; border-bottom: 2px solid #bbccbb; border-right: 1px solid #bbccbb; }
+.links-cols-title2 { width: 223px; float: left; }
+	.links-cols-title a:link { color: #bbccbb; }
+	.links-cols-title a:visited { color: #bbccbb; }
+.links-cols-arrows { font: 700 8.5pt helvetica,arial,sans-serif; width: auto; margin-right: 1px; padding-bottom: 2px; position: relative; top: -2px; border: 0px solid blue; }
+.links-cols-description { font: 700 8.5pt arial,sans-serif; padding: 0px; color: #999933; margin-top: 2px; border: 0px solid purple; }
+.clear { clear: both; }
+
+
+/* Footer */
+.footer-backto { font: 700 .8em arial,sans-serif; text-align: center; border: 0px solid black; }
+.footer1 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer2 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer-copyright { font: 700 .7em arial,sans-serif; color: #555555; }

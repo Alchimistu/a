@@ -1,0 +1,130 @@
+/* PAGE DEFAULTS */
+#main-frame { background-color: #666666; border-top: 1px solid black; } /* sets background color of default sidenav or border */
+#content-outer-frame { font: 400 1em arial,sans-serif; color: #000000; background-color: #f1f1f5; border-left: 1px solid #000000; } 
+	/* sets colors of main content area */
+	/* border-left required in IE6 or single line headers won't show up */
+	a:link { color: #110077; }
+	a:visited {color: #3a3366; }
+#content-messpath-frame { padding-left: 22px; }
+#footer-frame { background-color: #f1f1f5; } /* sets background color of footer.  set same as content area */
+body { background-color: #f1f1f5; } /* sets background color below footer on short pages.  set same as content area */
+
+
+/* TITLE SECTION */
+.ts-title-pre { font: 700 1.2em arial,sans-serif; }
+.ts-title { font: 500 2.1em georgia,"times new roman",serif; }
+.ts-title-sub { font: 700 1.1em arial,sans-serif; padding-top: 3px; }
+.ts-author { font: 700 1em georgia,"times new roman",serif; text-transform: uppercase; color: #444444; padding-top: 18px; }
+.ts-author2 { font: 700 1em georgia,"times new roman",serif; color: #444444; }
+.ts-translator { font: 700 1em georgia,"times new roman",serif; color: #444444; }
+.ts-editor { font: 700 1em georgia,"times new roman",serif; color: #444444; }
+.ts-ver-date { font: 700 .9em arial,sans-serif; padding-top: 4px; color: #444444; }
+.ts-source { font: 700 8.5pt arial,sans-serif; padding-top: 5px; color: #444444; }
+.ts-pdf { font: 700 8pt arial,sans-serif; color: #444444; }
+.ts-citation { font: 500 9pt arial,sans-serif; border-top: 1px solid #333333; padding-top: 5px; padding-bottom: 6px; }
+.ts-line { border-top: 1px solid #333333; margin-bottom: 15px; } /* Used to create a line matching the content-section line */
+.ts-space { margin-bottom: 19px; }
+
+
+/* BODY */	
+#content-body-frame { font: 400 1em arial,sans-serif; line-height: 1.3em; }
+.content-section { border-top: 1px solid #444444; padding-top: 25px; line-height: 25px; } /* set border color same as ts-citation */
+
+.image-surround,.image-surround-right { float: right; margin-bottom: 16px; margin-left: 18px; margin-top: 12px; }
+.image-surround-left { float: left; margin-bottom: 16px; margin-right: 18px; margin-top: 12px; }
+
+.image { border: 2px solid #222222; }
+.image-surround caption,.image-surround-right caption,.image-surround-left caption { font: 700 8pt arial,sans-serif; color: #222222; caption-side: bottom; padding: 4px; }
+
+.pullquote-left1 { float: left; width: 250px; padding: 5px; margin-top: 5px; margin-bottom: 5px;  margin-right: 13px;  border-top: 2px solid #888888; border-bottom: 2px solid #888888; }
+.pullquote-right1 { float: right; width: 250px; padding: 5px; margin-top: 5px; margin-bottom: 5px;  margin-left: 13px; border-top: 2px solid #888888; border-bottom: 2px solid #888888; }
+.pullquote-text { font: 700 10pt Trebuchet, Arial, sans-serif; text-align: justify; color: #222222; }
+.pullquote-sig { font: 700 9pt Trebuchet, Arial, sans-serif; text-align: right; color: #222222; padding-top: 4px; }
+
+
+/* Document Cautions and Warnings */
+.content-caution-surround { padding: 5px; margin: 0 0 20 0; border: 1px solid #000000; background-color: #d0d0d0; }
+.content-caution-surround-inner { font: 500 11pt arial,sans-serif; border: 1px solid #999999; margin: 0px; padding: 8px; }
+.content-caution-title { font: 700 12pt arial, sans-serif;  text-align:center; }
+.content-caution-text {}
+
+.content-caution-inline { color: #770000;  }
+
+.content-warning-surround { padding: 5px; margin: 0 0 20 0; border: 3px solid #FF0000; background-color: #d0d0d0; }
+.content-warning-surround-inner { font: 500 11pt arial,sans-serif; border: 1px solid black; margin: 0px; padding: 8px;}
+.content-warning-title { font: 700 12pt arial, sans-serif;  text-align:center;}
+.content-warning-text {}
+
+
+/* Document Introduction and Comment */
+.intro { font: 500 11pt arial,sans-serif; padding: 5px; margin: 0 0 20 0;  padding: 8px; border: 1px solid #000000; background-color: #d0d0d0; }
+
+.intro-title { font: 700 12pt arial, sans-serif;  text-align:center;}
+.intro-text {}
+
+/* inset page/letter type document */
+
+/*.inset-page { background-color: #ffffff; border-bottom: 2px solid black; border-right: 2px solid black; padding: 25px; margin-left: 0px; margin-top: 5px; margin-bottom: 10px; }*/
+
+.inset-page { background-color: #ffffff; border-bottom: 2px solid #111111; border-right: 2px solid #111111; border-top: 1px solid #aaaaaa; border-left: 1px solid #aaaaaa; padding: 25px; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px; }
+
+
+.erowid-note { font: 500 11pt arial,sans-serif; padding: 5px; margin: 0 0 20 0;  padding: 8px; border: 1px solid #000000; background-color: #d0d0d0; }
+.erowid-note-title { font: 700 12pt arial, sans-serif;  text-align:center;}
+
+
+/* LINKS - NOTES - REFS - REV HISTORY */
+.bottom-data-surround { margin-top: 10px; }
+
+.articles {  }
+.articles-title { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 25px; margin-bottom: 5px; }
+.articles li { font: 700 .8em arial,sans-serif; list-style-type: circle; margin-left: -8px; }
+
+
+.links {  }
+.links-title { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 25px; margin-bottom: 5px; }
+.links li { font: 700 .8em arial,sans-serif; list-style-type: circle; margin-left: -8px; }
+
+.refs {  }
+.refs-title { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 25px; margin-bottom: 4px; }
+.refs li { font: 500 .8em Arial, sans-serif; margin-bottom: 4px; margin-left: -8px; }
+.refs ul { list-style-type: circle; }
+.ref-sup { font: 500 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; }
+
+.notes {  }
+.notes-title { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 25px; margin-bottom: 4px; }
+.notes li { font: 500 .8em Arial, sans-serif; margin-bottom: 4px; margin-left: -8px; }
+.note-sup { font: 500 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; }
+
+.credits {  }
+.credits-title { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 25px; margin-bottom: 4px; }
+.credits li { font: 500 .8em Arial, sans-serif; margin-bottom: 4px; margin-left: -8px; }
+.credits-sup { font: 500 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; }
+
+.comments {  }
+.comments-title { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 25px; margin-bottom: 4px; }
+.comments li { font: 500 .9em arial, sans-serif; margin-bottom: 4px; margin-left: -8px; }
+.comment-title { font: 700 1em arial,sans-serif; }
+.comment-author {}
+.comment-date {}
+.comment-body { margin-top: 10px; margin-bottom: 20px; }
+
+.erowid-comment-sup { font-size:xx-small; vertical-align:top; }
+
+.rev-history { }
+.rev-history-title { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 25px; margin-bottom: 4px; }
+.rev-history li { font: 500 8pt arial,sans-serif; margin-bottom: 4px; list-style-type: circle; margin-left: -8px; }
+
+.pa { font: 500 5pt Arial, sans-serif; vertical-align: middle; color: #555555; text-decoration: none; }
+
+
+/* Footer */
+.footer-backto { font: 700 .8em arial,sans-serif; text-align: center; }
+.footer1 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer2 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer-copyright { font: 700 .7em arial,sans-serif; color: #000000; }
+
+.section-title {
+ font: 700 1.5em arial,sans-serif; 
+
+}

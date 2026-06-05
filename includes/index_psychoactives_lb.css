@@ -1,0 +1,46 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; line-height: 1.2em; }
+	#message a:link { color: #aa2222; }
+	#message a:visited { color: #aa2222; }
+
+	
+/* Title Section */
+.ts-title-pre { font: 700 14pt arial,sans-serif; text-align: center; }
+.ts-title { font: 700 20pt helvetica,arial,sans-serif; text-align: center; }
+.ts-title-sub { font: 700 13pt arial,sans-serif; text-align: center; margin-bottom: 27px; }
+
+	
+/* Data Summary Card - On Section & Topic Indexes */
+.summary-card { }
+.summary-card-text-surround { border-top: 4px solid #a6a6a8; border-left: 4px solid #969698; border-right: 4px solid #767678; border-bottom: 4px solid #767678; background-color: #d4d5d0; padding-left: 12px; height: auto; width: 620; }
+.summary-card-spacer { border-top: 2px solid #a6a6a8; }
+.summary-card-section-image { text-align: right; }
+.sum-head1, .sum-head2 { color: #333366; border-bottom: 1px solid #333366; width: 575px;}
+.sum-head1 { margin-bottom: 4px; }
+.sum-head2 { margin-top: 12px; }
+
+.sum-details, .sum-text, { font: 700 9pt arial,sans-serif; text-align: left; margin-top: 5px; margin-bottom: 8px; margin-left: 16px; margin-right: 15px; }
+.sum-chart { text-align: center; border: 0px solid red; }
+
+
+/* Topic Index Chart - On Section Indexes */
+.topic-chart-surround { border: 2px solid #837c8c; margin-bottom: 20px; }
+.topic-chart-title { text-align: center; background-color: #929983; color: #000000; border: 1px solid #222222;}
+.topic-surround td { background-color: #000000; color: #aaaaaa; border: 1px solid #837c8c; }
+	.topic-chart-surround a:link { color: #8ca675; }
+	.topic-chart-surround a:visited { color: #5b8e4f; }
+
+.index-text-outer { border-top: 2px solid #777777; border-bottom: 2px solid #777777; padding-top: 15px; padding-bottom: 4px; margin-bottom: 20px; }
+.index-links-int { text-align: center; border-top: 0px solid #777777; }
+.index-text-line { margin-bottom: 15px; }
+.index-links-line { }
+.index-links-ext { text-align: center; }
+
+.quote-center { text-align: center; font: 700 9pt arial,sans-serif; }
+.quote-right { text-align: right; font: 700 9pt arial,sans-serif; }
+.quote-left { text-align: left; font: 700 9pt arial,sans-serif; border: 1px solid blue; }
+	
+	
+/* Timely Message */
+.timely-message-surround { }	
+.timely-message { font: 700 10pt arial,sans-serif; letter-spacing: .05em; width: 700px; margin-right: auto; margin-left: auto; margin-top: 25px; padding-top: 4px; padding-bottom: 4px; border-top: 2px solid #003399; border-bottom: 2px solid #003399; }

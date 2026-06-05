@@ -1,0 +1,41 @@
+#content-messpath-frame { height: 20px; }	
+
+input { font: 8pt arial,sans-serif; }
+.ts-title-sub { margin-bottom: 8px; }
+
+
+/* SUBSTANCE TABLE ddaa00*/
+.substance-link-table { margin-bottom: 7px; }
+	.substance-link-table a:link { color: #aaaaff; }
+	.substance-link-table a:visited { color: #aaaaff; }
+
+
+/* MESSAGE */
+.message-surround { color: #b1b1d3; margin-top: 14px; padding-top: 5px; padding-bottom: 7px; background-color: #1d1d2a; border: 2px solid #313135; margin-left: -27px; margin-right: -27px; }
+.message { font: 700 11pt helvetica,arial,sans-serif; letter-spacing: .05em; }
+	.message a:link { color: #ee2233; /*color: #dd5533;*/ }
+	.message a:visited { color: #ee2233; /*color: #dd8811;*/ }
+.message-small { font: 700 9pt helvetica,arial,sans-serif; letter-spacing: .05em; }
+	.message-small a:link { color: #33bb33; }
+	.message-small a:visited { color: #33bb33; }
+.mesesage-big { font: 700 14.5pt helvetica,arial,sans-serif; letter-spacing: .05em; }
+.announce-surround { margin-top: 18px; }
+.announce-text { font: 700 10pt helvetica,arial,sans-serif; }
+	.announce-text a:link { color: #8899d1; }
+	.announce-text a:visited { color: #8899d1; }
+	
+	
+/* CATEGORIES INDEX */
+.psychoactive-categories-surround { margin-bottom: -5px; }
+.section-surround { font: 700 9pt arial,sans-serif; width: 342px; clear: both; border: 0px solid blue; }
+.section-index-table { margin-left: auto; margin-right: auto; margin-top: 10px; } 
+
+.section-title { font: 700 11pt helvetica,arial,sans-serif; letter-spacing: .05em; color: #ddaa00; padding-top: 10px; margin-bottom: 2px; border-bottom: 1px solid #ddaa00; }
+	.section-title a:link { color: #ddaa00; }
+	.section-title a:visited { color: #ddaa00; }
+.column1 { float: left; padding-left: 15px; width: 146px; border: 0px solid red; }
+	.column1 a:link { color: #7f8fa1; }
+	.column1 a:visited { color: #667ba8; }
+.column2 { float: left; padding-left: 15px; width: 162px; border: 0px solid red; }
+	.column2 a:link { color: #7f8fa1; }
+	.column2 a:visited { color: #667ba8; }

@@ -1,0 +1,42 @@
+#content-outer-frame { background-color: #c3bbaa; border-left: 1px solid #c3bbaa; } /* sets background color of content area */
+#footer-frame { background-color: #c3bbaa; } /* sets background color of footer.  set same as content area */
+body { background-color: #c3bbaa; } /* sets background color below footer on short pages.  set same as content area */
+
+#content-outer-frame { font: 11pt arial,sans-serif; color: #000000; } /* set font of content area */
+	a:link { color: #0a0070; }
+	a:visited {color:  #222244; }
+
+
+/* Testing Bar Sub-Headers - Colors Only - All Will Be Same Color */
+.section-title1 { background-color: #b3ab9a; border-top: 2px solid #938877; border-bottom: 2px solid #938877; } 
+.section-title1 a:link { color: #5f5f7a; }
+.section-title1 a:visited { color: #5f5f7a; }
+
+
+/* Summary Table */
+.summary { font: 500 11pt arial,sans-serif; }
+.interactions-summary { margin-bottom: 23px; margin-left: auto; margin-right: auto; background-color: #bbbbbb; border: 2px solid #888888; }
+.dis-title { font: 700 10.5pt arial,sans-serif; padding: 4px 5px 0px 5px; background-color: #bbbbbb; text-align: center; }
+.dis-title2 { font: 700 10pt arial,sans-serif; padding: 0px 5px 3px 5px; background-color: #bbbbbb; text-align: center; letter-spacing: .05em; }
+
+.interactions-summary .dis-col-title { font: 700 9pt arial,sans-serif; text-align: center; background-color: #aaaacc; }
+.interactions-summary .dis-substance { font: 700 9pt arial,sans-serif; vertical-align: top; background-color: #dddddd; }
+.interactions-summary .dis-type { font: 500 8pt arial,sans-serif; text-align: center; vertical-align: top; text-align: center; background-color: #dddddd; }
+.interactions-summary .dis-description { font: 500 9pt arial,sans-serif; vertical-align: top; background-color: #dddddd; }
+	.interactions-summary .dis-issuecodes { font: 700 9pt arial,sans-serif; vertical-align: top; background-color: #dddddd; }
+.interactions-summary .dis-symptoms { font: 500 8pt arial,sans-serif; vertical-align: top; background-color: #dddddd; }
+.interactions-summary .dis-confidence { font: 500 8pt arial,sans-serif; vertical-align: top; background-color: #dddddd; }
+.interactions-summary .dis-refs { font: 500 8pt arial,sans-serif; vertical-align: top; background-color: #dddddd; }
+.interactions-summary .dis-submit { font: 700 9pt arial,sans-serif; text-align: center; }
+
+
+/* Interactions */
+.interactions-text { font: 500 11pt arial,sans-serif; padding-bottom: 12px; margin-top: 5px; }
+
+
+/* Caution */
+.interactions-caution { font: 500 10pt arial,sans-serif; }
+
+
+/* Refs section defaults to having a left margin, this resets it to match */
+.refs { margin-left: 0px; }

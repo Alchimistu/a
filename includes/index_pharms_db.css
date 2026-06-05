@@ -1,0 +1,79 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; line-height: 1.2em; }
+	#message a:link { color: #ffdd00; }
+	#message a:visited { color: #ffdd00; }
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+#content-messpath-frame {  }	
+
+
+/* Required - Editable */
+#main-frame { background-color: #000000; height: auto; border-top: 1px solid black; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #000000; border-left: 1px solid #000000; } 
+	/* sets colors of main content area */
+	/* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #000000; } /* sets background color of footer.  set same as content area */
+body { background-color: #000000; } /* sets background color below footer on short pages.  set same as content area */
+#content-outer-frame { color: #bbbbbb; } /* set font color of content area */
+	a:link { color: #669966; }
+	a:visited {color: #6a8c8c; }
+	
+	
+/* Data Summary Card - On Section & Topic Indexes */
+.summary-card { border-top: 4px solid #514441; border-left: 4px solid #514441; border-right: 4px solid #2f2e2a; border-bottom: 4px solid #2f2e2a; background-color: #6a4411; }
+.summary-card-text-surround { padding-left: 13px; color: #dddddd; }
+.summary-card-topic-image, .summary-card-section-image { border-left: 2px solid #4a4a4c; border-top: 2px solid #4a4a4c; border-right: 2px solid #2a2a2c; border-bottom: 2px solid #2a2a2c; }
+	.summary-card-topic-image a:link, a:visited { color: #bb7500; }
+.sum-head1, .sum-head2, .sum-head3, .sum-head4, .sum-head5 { color: #ddddee; border-bottom: 1px solid #ddddee; width: 345px;}
+.sum-head2 { }
+
+.sum-common-name, .sum-chem-name, .sum-effects { font: 700 9pt arial,sans-serif; text-align: left; width: 325px; margin-top: 5px; margin-bottom: 13px; margin-left: 16px; margin-right: 15px; }
+.sum-description, .sum-caution { font: 700 9pt arial,sans-serif; text-align: left; margin-top: 5px; margin-bottom: 13px; margin-left: 16px; margin-right: 15px; }
+
+.summary-card-icon-surround { text-align: center; padding-top: 0px; padding-bottom: 10px; padding-left: 16px; padding-right: 16px; border: 0px solid #8888aa; }
+.summary-icon { display: inline; width: 75px; height: 75px; padding: 0px; margin-left: 1px; margin-right: 1px; margin-top: 0px; margin-bottom: 0px; border: 2px solid #bbb8b5; }
+	.summary-icon:hover { border: 2px solid #221100; }
+img.summary-icon-spacer { display: inline; width: 75px; height: 75px; padding: 0px; margin-left: 1px; margin-right: 1px; margin-top: 0px; margin-bottom: 0px; border: 2px solid #3f3325; background-color: #4f433b; }
+
+
+/* Index Text Section - On Misc Indexes */	
+.index-text-outer { border-top: 2px solid #777777; border-bottom: 2px solid #777777; padding-top: 12px; padding-bottom: 12px; margin-bottom: 20px; }
+
+
+/* Topic Index Chart - On Section Indexes */
+.topic-chart-surround { border: 2px solid #8d8a83; margin-bottom: 20px; }
+.topic-chart-title { text-align: center; background-color: #908c83; color: #000000; border: 1px solid #222222;}
+.topic-surround td { background-color: #000000; color: #aaaaa1; border: 1px solid #8d8a83; }
+.topic-chart-surround a:link { color: #cc9f00; }
+.topic-chart-surround a:visited { color: #bb7500; }
+
+
+/* Timely Message */
+.timely-message-surround { }	
+.timely-message { font: 700 10pt arial,sans-serif; letter-spacing: .05em; width: 700px; margin-right: auto; margin-left: auto; margin-top: 25px; padding-top: 4px; padding-bottom: 4px; border-top: 2px solid #bb7500; border-bottom: 2px solid #bb7500; }
+
+
+/* Links */
+	.links-list a:link { color: #88a171; } 
+	.links-list a:visited {color: #7c86a5; } 
+.pa { color: #555555; }
+.ish { color: #999999; }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+.link-int, .link-ext, .non-link { color: #88918f; } /* sets non-linked text in links-lists */	
+.link-int:after { content: " " url("../images/logo_small_db.gif"); } /* adds logo after local links in mozilla */
+	.more a:link { color: #888888; } /* set font color of more links */
+	.more a:visited { color: #888888; }	
+
+.offsite-outer { border: 2px solid #aab1aa; }
+.offsite-inner { color: #bbbbaa; border: 1px solid #aab1aa; }
+
+
+/* Pharms Image Index */
+.image-chart-cell { font: 700 9pt arial,sans-serif; height: 24px; text-align: center; }
+.image-chart-cell a { margin-left: 5px; margin-right: 5px; }
+
+
+/* Footer */
+.footer-backto { border: 0px solid black; }
+.footer-copyright { color: #aaaaaa; }
+

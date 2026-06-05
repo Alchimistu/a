@@ -1,0 +1,18 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; }
+	#message a:link { color: #990000; }
+	#message a:visited { color: #990000; }
+
+
+/* Body */
+.pullquote-left1 { float: left; width: 250px; padding: 5px; margin-top: 5px; margin-bottom: 5px;  margin-right: 13px;  border-top: 2px solid #222222; border-bottom: 2px solid #222222;}
+.pullquote-right1 { float: right; width: 250px; padding: 5px; margin-top: 5px; margin-bottom: 5px;  margin-left: 13px; border-top: 2px solid #222222; border-bottom: 2px solid #222222;}
+.pullquote-text { font: 700 11pt Trebuchet, Arial, sans-serif; text-align: justify; color: #222222; }
+.pullquote-sig { font: 700 10pt Trebuchet, Arial, sans-serif; text-align: right; color: #222222; padding-top: 4px; }
+
+
+/* Summary Pages */
+.section-title1 { background-color: #9f9faa; border-top: 2px solid #222255; border-bottom: 2px solid #222255; } 
+.section-title1 a:link { color: #5f5f7a; }
+.section-title1 a:visited { color: #5f5f7a; }
+		/* sets colors for smarts summary sub-heads */

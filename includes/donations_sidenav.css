@@ -1,0 +1,41 @@
+/* Required - Editable */
+/*#main-frame { background: url("/donations/images/donations_sidenav_bkg_blu.jpg") repeat-y top left transparent;  } */
+	/* sets background color of sidenav or border */
+#main-frame { background-color: #eeeeee; margin-left: 0.6em; margin-right: 0.6em; border-top: 1px solid black; border: 0px solid red; }
+#content-outer-frame { background-color: #eeeeee; margin-left: 15.4em; } 
+	/* sets background color of content area, width of sidenav - match to sidenav-outer-frame */
+	/* border-left required in IE6 or single line headers won't show up */
+
+
+/* Sidenav */
+#sidenav-outer-frame { background-color: #bbd3cc; float: left; width: 14.8em; padding-left: 0em; padding-right: 0em; margin-left: 0px; margin-right: 1em; border-right: 3px solid #779988; }
+.sidenav-sub-frame { width: 14.8em; padding-bottom: 12px; border: 0px solid red; }
+ 
+.side-title { 
+	font: 500 1.1em georgia,times,serif; 
+	border-bottom: 2px solid #000000;
+	padding-bottom: 1px; 
+	margin-top: 1px; 
+	margin-left: 10px; 
+	margin-bottom: 4px; 
+	margin-right: 10px; 
+}
+.side-title a:link {
+	text-decoration: none;
+}
+
+.sidenav-sub-frame ul { margin-top: 0px; margin-bottom: 0px; margin-left: 0px; list-style-type: none; }
+.side-link { font: 500 .9em arial,sans-serif; color: #222244; margin-left: 0.9em; margin-right: 0.9em; padding-left: 9px; padding-bottom: 2px; background: url("https://blackhole.erowid.org/blocked.shtml") no-repeat 0px 4px; border: 0px solid blue; text-decoration: none; }
+	.side-link a:link { color: #111133; text-decoration: none; }
+	.side-link a:visited { color: #111133; text-decoration: none; }
+	.side-link a:hover { color: #006600; }
+.side-link2 { font: 500 .9em arial,sans-serif; margin-left: 19px; margin-bottom: 15px; }
+	.side-link2 a:link { color: #111133; }
+	.side-link2 a:visited { color: #111133; }
+	.side-link2 a:hover { color: #006600; }
+.sidenav-join { margin-top: 12px; }
+
+.side-special { font: 500 .9em arial,sans-serif; color: #711f21; margin-left: 0.9em; margin-right: 0.9em; padding-left: 9px; padding-bottom: 2px; background: url("https://blackhole.erowid.org/blocked.shtml") no-repeat 0px 4px; border: 0px solid blue; }
+	.side-special a:link { color: #711f21; text-decoration: none; }
+	.side-special a:visited { color: #711f21; text-decoration: none; }
+	.side-special a:hover { color: #711f21; }

@@ -1,0 +1,46 @@
+/* Required - Don't Edit */
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+	
+
+body {background-color: #000000; color: #bbbb99; }
+	a:link { color: #aa77bb; }
+	a:visited {color: #55bbaa; }
+
+
+/* Title Section */	
+.title-section { text-align: center; }
+.ts-substance-name { display: inline; font: 700 15pt helvetica,arial,sans-serif; text-align: center; margin-bottom: 5px; margin-right: 2px; }
+.ts-summary-type { display: inline; font: 700 15pt helvetica,arial,sans-serif; text-align: center; margin-bottom: 5px; margin-left: 2px; }
+.ts-author { font: 700 10pt helvetica,arial,sans-serif; text-align: center; margin-bottom: 12px; }
+
+.content-section { border-top: 2px solid #999966; margin-top: 8px; padding-top: 18px; }
+
+
+/* Timeline Display Table */	
+.table { background-color: #000000; margin-bottom: 15px; }
+.left { vertical-align: top; text-align: right; width: 150px; }
+.date { font: 700 10pt helvetica,arial,sans-serif; letter-spacing: .07em; }
+.middle { vertical-align: top; width: 10px; border-width: 1px; }
+.right { vertical-align: top; text-align: left; padding: 7px; }
+.entry { font: 700 10pt helvetica,arial,sans-serif; letter-spacing: .03em; }
+.details { font: 10pt helvetica,arial,sans-serif; letter-spacing: .01em; }
+.details_ref1 { font: 10pt helvetica,arial,sans-serif; letter-spacing: .01em; text-decoration: underline; }
+.details_ref2 { font: 9pt helvetica,arial,sans-serif; letter-spacing: .01em; }
+
+.note { font: 500 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; }
+.url { font: 700 9pt helvetica,arial,sans-serif; }
+.refs-title { color: #bbbb99; }
+.refs li { font: 600 9pt helvetica,arial,sans-serif; color: #bbbb99; margin-bottom: 4px; }
+.ref-sup { font: 700 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; }
+.suggest { font: 700 10pt helvetica,arial,sans-serif; text-align: center; margin-top: 30px; margin-bottom: 12px; }
+
+
+/* Footer */		
+.footer-backto { font: 700 8pt arial,sans-serif; text-align: center; }
+.footer1 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer2 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer-copyright { font: 700 .7em arial,sans-serif; color: #000000; }
+
+/* Admin Interface */
+
+.admin-box { border: 1px dotted #aaaaaa; padding: 5px; }

@@ -1,0 +1,49 @@
+	#message a:link { color: #003377; }
+	#message a:visited { color: #003377; }
+
+
+body { background-color: #cfcebc; } /* sets background color of page bottom if page too short */
+#main-frame { background-color: #cfcebc; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #cfcebc; } /* sets background color of content area */
+#footer-frame { background-color: #cfcebc; } /* sets background color of footer.  set same as content area */
+	
+.ts-title-pre { text-align: left; font: 700 11pt arial,sans-serif; color: #110009; }
+.ts-character-name { text-align: left; font: 700 18pt arial,sans-serif; color: #110009; }
+.ts-title-sub { text-align: left; font: 700 12pt arial,sans-serif; color: #110009; }
+.ts-space { text-align: left; margin-bottom: 25px; }
+
+.content-section { font: 10pt arial,sans-serif; border: 0px solid blue; }
+	a:link { color: #221155; }
+	a:visited {color:  #002235; }	
+
+.dates { font: 700 11pt arial,sans-serif; margin-bottom: 15px; }
+.image-frame { float: right; width: 275px; margin-left: 20px; margin-bottom: 20px; text-align: right; border: 0px solid red; }
+.image { padding: 1px; margin-bottom: 5px; border: 1px solid black; }
+.image-credit { font: 500 8pt arial,sans-serif; text-align: right; margin-top: -5px; margin-bottom: 10px; }
+/* .clear { clear: both; } */
+
+.update-surround { border: 1px solid white; background-color: #ffcc33; width:430; padding: 3px; margin: 3px; }
+.update-title { font: 700 10pt arial,sans-serif; margin: 10px; }
+.update-text { font: 500 10pt arial,sans-serif; margin-left: 10px;  }
+.section-title { font: 700 11pt arial,sans-serif; text-decoration: underline; color: #110009; margin-bottom: 8px; margin-top: 22px; }
+.section-text { font: 500 10pt arial,sans-serif; margin-left: 13px; }
+.quote-text { font: 9pt arial,sans-serif; margin-left: 13px; }
+.quote-source { font: 9pt arial,sans-serif; margin-left: 13px; margin-top: 3px; }
+
+.item { font: 700 9pt arial,sans-serif; margin-left: 30px; list-style: circle; }
+.pdf-version { color: #7f7e6c; }
+	.pdf-version a:link { color: #7f7e6c; }
+	.pdf-version a:visited { color: #7f7e6c; }
+	
+.table { font: 11pt arial,sans-serif; }
+.pa { font: 700 6pt arial,sans-serif; vertical-align: middle; color: 555555; }
+
+.image-entry .image { border: 0px; margin-bottom:0px; }
+.image-entry .desc { margin-left: 10px; }
+.image-entry .credit { margin-left: 10px; }
+
+.ish { font: 700 11pt arial,sans-serif; text-decoration: underline; color: #110009; margin-bottom: 8px; margin-top: 22px; }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+
+.link-int, .link-ext { font: 700 9pt arial,sans-serif; margin-left: 30px; list-style: circle; display:list-item;}

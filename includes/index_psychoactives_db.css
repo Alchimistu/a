@@ -1,0 +1,84 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; line-height: 1.2em; }
+	#message a:link { color: #ffdd00; }
+	#message a:visited { color: #ffdd00; }
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+
+
+/* Required - Editable */
+#main-frame { background-color: #000000; border-top: 1px solid black; height: auto; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #000000; border-left: 1px solid #000000; } 
+	/* sets colors of main content area */
+	/* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #000000; } /* sets background color of footer.  set same as content area */
+body { background-color: #000000; } /* sets background color below footer on short pages.  set same as content area */
+
+#content-outer-frame { color: #bbbbdd; } /* set font color of content area */
+	a:link { color: #a063bc; }
+	a:visited {color: #96789a; }
+
+	
+/* Title Section */
+.ts-title-pre { font: 700 14pt arial,sans-serif; text-align: center; }
+.ts-title { font: 700 20pt helvetica,arial,sans-serif; text-align: center; }
+.ts-title-sub { font: 700 13pt arial,sans-serif; text-align: center; margin-bottom: 27px; }
+
+
+/* Data Summary Card - On Section & Topic Indexes */
+.summary-card { }
+.summary-card-text-surround { border-top: 4px solid #343232; border-left: 4px solid #343232; border-right: 4px solid #131111; border-bottom: 4px solid #131111; background-color: #261818; padding-left: 13px; }
+.summary-card-spacer { border-top: 2px solid #a6a6a8; }
+.summary-card-section-image { text-align: right; }
+.sum-head1, .sum-head2 { color: #aaaadd; border-bottom: 1px solid #333366; width: 575px;}
+.sum-head1 { margin-bottom: 4px; }
+.sum-head2 { margin-top: 12px; }
+
+.sum-details, .sum-text { font: 700 9pt arial,sans-serif; text-align: left; margin-top: 5px; margin-bottom: 8px; margin-left: 16px; margin-right: 15px; }
+
+
+/* Topic Index Chart - On Section Indexes */
+.topic-chart-surround { border: 2px solid #8d8a83; margin-bottom: 20px; }
+.topic-chart-title { text-align: center; background-color: #908c83; color: #000000; border: 1px solid #222222;}
+.topic-surround td { background-color: #000000; color: #aaaaa1; border: 1px solid #8d8a83; }
+	.topic-chart-surround a:link { color: #cc9f00; }
+	.topic-chart-surround a:visited { color: #bb7500; }
+
+.index-text-outer { border-top: 2px solid #777777; border-bottom: 2px solid #777777; padding-top: 15px; padding-bottom: 4px; margin-bottom: 20px; }
+.index-links-int { text-align: center; border-top: 0px solid #777777; }
+.index-text-line { margin-bottom: 15px; }
+.index-links-line { }
+.index-links-ext { text-align: center; }
+
+.quote-center { text-align: center; font: 700 9pt arial,sans-serif; }
+.quote-right { text-align: right; font: 700 9pt arial,sans-serif; }
+.quote-left { text-align: left; font: 700 9pt arial,sans-serif; }
+
+
+/* Timely Message */
+.timely-message-surround { }	
+.timely-message { font: 700 10pt arial,sans-serif; letter-spacing: .05em; width: 700px; margin-right: auto; margin-left: auto; margin-top: 25px; padding-top: 4px; padding-bottom: 4px; border-top: 2px solid #003399; border-bottom: 2px solid #003399; }
+
+
+/* Links */
+	.links-list a:link { color: #88a171; } 
+	.links-list a:visited {color: #7c86a5; } 
+.pa { color: #555555; }
+.ish { color: #999999; }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+.link-int, .link-ext, .non-link { color: #88918f; } /* sets non-linked text in links-lists */	
+.link-int:after { content: " " url("../images/logo_small_db.gif"); } /* adds logo after local links in mozilla */
+	.more a:link { color: #888888; } /* set font color of more links */
+	.more a:visited { color: #888888; }	
+
+.offsite-outer { border: 2px solid #aab1aa; }
+.offsite-inner { color: #bbbbaa; border: 1px solid #aab1aa; }
+
+
+/* Psychoactive Images Index */
+.substance-link-table th { font: 700 9pt arial,sans-serif; width: 106px; height: 24px; padding-left: 5px; padding-right: 5px; }
+.genus-species-list dt { font: 700 10pt helvetica,arial,sans-serif; letter-spacing: .1em; margin-top: 10px; color: BBBB88; }
+	.genus-species-list dt a:link { color: #eeeecc; }
+	.genus-species-list dt a:visited { color: #eeeecc; }
+.genus-species-list dd { font: 10pt helvetica,arial,sans-serif; color: #bbbb88; margin-left: -15px; }
+.footer-copyright { font: 700 .7em arial,sans-serif; color: #aaaaaa; }

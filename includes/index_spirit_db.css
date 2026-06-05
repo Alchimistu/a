@@ -1,0 +1,55 @@
+/* Required - Don't Edit */
+#main-frame { line-height: 1.2em; border: 0px solid white; }
+	#message a:link { color: #ffdd00; }
+	#message a:visited { color: #ffdd00; }
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+
+
+/* Required - Editable */
+#main-frame { background-color: #000000; border-top: 1px solid black; height: auto; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #000000; border-left: 1px solid #000000; } 
+	/* sets colors of main content area */
+	/* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #000000; } /* sets background color of footer.  set same as content area */
+body { background-color: #000000; } /* sets background color below footer on short pages.  set same as content area */
+
+#content-outer-frame { color: #c0c0bb; } /* set font color of content area */
+	a:link { color: #a063bc; }
+	a:visited {color: #96789a; }
+
+.ts-title-pre { font: 700 14pt arial,sans-serif; text-align: center; }
+.ts-title { font: 700 24pt helvetica,arial,sans-serif; text-align: center; }
+.ts-title-sub { font: 700 14pt arial,sans-serif; text-align: center; margin-bottom: 17px; }
+
+.index-text-outer { border-top: 2px solid #777777; padding-top: 15px; padding-bottom: 0px; margin-bottom: 10px; }
+.index-links-int { text-align: center; border-top: 2px solid #777777; }
+.index-text-line { margin-bottom: 15px; }
+.index-links-line { }
+.index-links-ext { text-align: center; }
+
+.ts-line { border: 1px solid #777777; margin-bottom: 15px; }
+
+.quote-center { text-align: center; font: 700 9pt arial,sans-serif; }
+.quote-right { text-align: right; font: 700 9pt arial,sans-serif; }
+.quote-left { text-align: left; font: 700 9pt arial,sans-serif; }
+
+
+/* Links */
+	.links-list a:link { color: #88a171; } 
+	.links-list a:visited {color: #7c86a5; } 
+.pa { color: #555555; }
+.ish { color: #999999; }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+.link-int, .link-ext, .non-link { color: #88918f; } /* sets non-linked text in links-lists */	
+.link-int:after { content: " " url("../images/logo_small_db.gif"); } /* adds logo after local links in mozilla */
+	.more a:link { color: #888888; } /* set font color of more links */
+	.more a:visited { color: #888888; }	
+
+.offsite-outer { border: 2px solid #aab1aa; }
+.offsite-inner { color: #bbbbaa; border: 1px solid #aab1aa; }
+
+
+/* Timely Message */
+.timely-message-surround { }	
+.timely-message { font: 700 10pt arial,sans-serif; letter-spacing: .05em; width: 700px; margin-right: auto; margin-left: auto; margin-top: 25px; padding-top: 4px; padding-bottom: 4px; border-top: 2px solid #6a8c8c; border-bottom: 2px solid #6a8c8c; }

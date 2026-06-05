@@ -1,0 +1,81 @@
+/* Required - Don't Edit */
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+	
+
+.summary-card { height: 377px; border: 0px solid blue; background-color: #181c26; border-top: 4px solid #333333; border-left: 4px solid #333333; border-right: 4px solid #222222; border-bottom: 4px solid #222222;}
+	.summary-card:after { clear: both; }
+.summary-card-text-surround { height: 354px; margin-left: 264px; text-align: left; margin-top: 10px; border: 0px solid #222222; }
+.summary-card-cover-image { float: left; margin-bottom: 15px; margin-top: 10px; margin-left: 10px; margin-right: 20px; border-top: 3px solid #222222; border-left: 3px solid #222222; border-right: 3px solid #000000; border-bottom: 3px solid #000000;}
+
+
+/* Required - Editable */
+#main-frame { background-color: #000000; height: auto; border-top: 1px solid black; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #000000; border-left: 1px solid #000000; } /* sets background color of content area */ 
+														 /* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #000000; } /* sets background color of footer.  set same as content area */
+body { background-color: #000000; } /* sets background color below footer on short pages.  set same as content area */
+#content-outer-frame { color: #c4c4bf; } /* set font color of content area */
+	a:link { color: #89bfdf; } 
+	a:visited {color: #569fcf; }
+
+
+.title-section { border: 0px solid green; color: #eeeeee; letter-spacing: .05em;}
+.ts-title-pre { font: 700 10pt helvetica,Arial,sans-serif;  }
+.ts-title { font: 500 15pt helvetica,Arial,sans-serif; }
+.ts-title-sub { font: 700 10pt helvetica,Arial,sans-serif; margin-bottom: 17px; }
+
+
+ul { font: 700 10pt arial,sans-serif; list-style-type: circle; text-align: left; }
+.small { font: 500 8pt helvetica,arial,sans-serif; color: #aaaaaa;}
+.section-title1 { font: 700 12pt helvetica,arial,sans-serif; text-align: center; background-color: #181c26; padding-top: 2px; padding-bottom: 1px; padding-left: 20px; padding-right: 27px; margin-top: 20px; margin-bottom: 14px; margin-left: -20px; margin-right: -15px; border-top: 2px solid #333333; border-bottom: 2px solid #333333; }
+	.section-title1 a:link { color: #555555; }
+	.section-title1 a:visited { color: #555555; }
+	
+.links-list { width: 700px; text-align: left; margin-top: 25px; padding: 3px; margin-left: auto; margin-right: auto; border: 1px solid #333333; }
+.link-int, .link-ext, .non-link { color: #9c989e; } /* sets non-linked text in links-lists */	
+.link-int { margin-left: 20px; }
+.link-int:after { content: " " url("../images/logo_small_db.gif"); } /* adds logo after local links in mozilla */
+.pa { font: 500 5pt Arial, sans-serif; vertical-align: middle; color: #555555; text-decoration: none; }
+.ish { font: 700 11pt helvetica,arial,sans-serif; letter-spacing: .05em; }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+	.more a:link { color: #110055; } /* set font color of more links */
+	.more a:visited { color: #110055; }
+	
+
+/* Book & Author Index Pages */
+.search-table { width: 685px; background-color: #000000; color: #dddddd; margin-bottom: 15px; }
+.search-table .title-bar { font: 700 10pt arial,sans-serif; height: 23px; background-color: #222233; text-align: center; }
+.search-table tr { font: 700 9pt arial,sans-serif; height: 25px; }
+.search-table td { padding-left: 3px; padding-right: 3px; }
+.alpha-table { margin-top: 5px; margin-bottom: 5px; }
+.alpha-table th { font: 700 11pt arial,sans-serif; }
+.main-table-books td { font: 700 9pt arial,sans-serif; background-color: #181c25; color: #a0a0a0; text-decoration: none; }
+	.main-table-books a:link { color: #c2aa3d; text-decoration: none; }
+	.main-table-books a:visited { color: #cc9900; text-decoration: none; }
+	.main-table-books .new { background-color: #000000; }
+.main-table-authors { font: 700 9pt arial,sans-serif; color: #a0a0a0; }
+	.main-table-authors a:link { color: #c2aa3d; }
+	.main-table-authors a:visited { color: #cc9900; }
+	.main-table-authors .new { background-color: #000000; }
+.author { font: 700 9pt arial,sans-serif; background-color: #181c25; color: #a0a0a0; }
+	.author a:link { color: #7799bb; }
+	.author a:visited { color: #7799bb; }
+.title { font: 700 9pt arial,sans-serif; background-color: #181c25; color: #a0a0a0; }
+.music-album, .music-artist, .music-year { font: 700 9pt arial,sans-serif; background-color: #181c25; color: #a0a0a0; }
+.spacer { background-color: #000000; height: 30px; }
+.letter { font: 700 11pt arial,sans-serif; background-color: #282c46; color: #a0a0a0; }
+	.category-table a:link { color: #555555; }
+	.category-table a:visited { color: #555555; }
+.buttons { font-size: 7pt;}
+
+
+/* Category Index Pages */
+.category-table { margin-top: -12px; }
+.category-table td { font: 700 9pt arial,sans-serif; background-color: #181c25; color: #a0a0a0; }
+	.category-table a:link { color: #c2aa3d; }
+	.category-table a:visited { color: #cc9900; }
+	.category-table .new { background-color: #000000; }
+.list-surround { width: 180px; list-style-type: circle; }
+	.list-surround a:link { color: #c2aa3d; }
+	.list-surround a:visited { color: #cc9900; }

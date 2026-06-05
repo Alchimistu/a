@@ -1,0 +1,34 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; }
+	#message a:link { color: #bb2200; }
+	#message a:visited { color: #bb2200; }
+
+
+/* Data Summary Card - On Section & Topic Indexes */
+.summary-card { border-top: 4px solid #c1c1cb; border-left: 4px solid #b5b5ba; border-right: 4px solid #757578; border-bottom: 4px solid #757578; background-color: #d0d2dd; }
+.summary-card-text-surround { padding-left: 13px; }
+.summary-card-topic-image, .summary-card-section-image { border-left: 2px solid #4a4a4c; border-top: 2px solid #4a4a4c; border-right: 2px solid #2a2a2c; border-bottom: 2px solid #2a2a2c; }
+	.summary-card-topic-image a:link, a:visited { color: #334477; }
+.sum-head1, .sum-head2, .sum-head3, .sum-head4, .sum-head5 { color: #444477; border-bottom: 1px solid #444477; width: 345px;}
+.sum-head2 { }
+
+.sum-common-name, .sum-chem-name, .sum-effects { font: 700 9pt arial,sans-serif; text-align: left; width: 325px; margin-top: 5px; margin-bottom: 13px; margin-left: 16px; margin-right: 15px; }
+.sum-description, .sum-caution { font: 700 9pt arial,sans-serif; text-align: left; margin-top: 5px; margin-bottom: 13px; margin-left: 16px; margin-right: 15px; }
+
+.summary-card-icon-surround { text-align: center; padding-top: 0px; padding-bottom: 10px; padding-left: 16px; padding-right: 16px; border: 0px solid #8888aa; }
+.summary-icon { display: inline; width: 75px; height: 75px; padding: 0px; margin-left: 1px; margin-right: 1px; margin-top: 0px; margin-bottom: 0px; border: 2px solid #a4a5a0; }
+	.summary-icon:hover { border: 2px solid #826f82; }
+img.summary-icon-spacer { display: inline; width: 75px; height: 75px; padding: 0px; margin-left: 1px; margin-right: 1px; margin-top: 0px; margin-bottom: 0px; border: 2px solid #a4a5a0; background-color: #b0b1b6; }
+
+
+/* Topic Index Chart - On Section Indexes */
+.topic-chart-surround { border: 2px solid #8888aa; margin-bottom: 20px; }
+.topic-chart-title { text-align: center; background-color: #aaaac6; color: #000000; border: 1px solid #555555;}
+.topic-surround td { background-color: #e7e7ee; color: #444444; border: 1px solid #888891; }
+	.topic-chart-surround a:link { color: #111191; } /* set same as links-list links */
+	.topic-chart-surround a:visited { color: #334477; } /* set same as links-list links */
+
+	
+/* Plants Image Index */
+.image-chart-cell { font: 700 9pt arial,sans-serif; height: 24px; text-align: center; }
+.image-chart-cell a { margin-left: 5px; margin-right: 5px; }

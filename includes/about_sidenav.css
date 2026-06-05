@@ -1,0 +1,26 @@
+/* Required - Editable */
+#main-frame { background: url("https://blackhole.erowid.org/blocked.shtml") repeat-y top left transparent; background-color: #ebe9e5; border-top: 1px solid black; border: 0px solid red; } 
+	/* sets background color of sidenav or border */
+#content-outer-frame { background-color: #eeeee8; margin-left: 200px; border-top: 1px solid #ebe9e5; } 
+	/* sets background color of content area, width of sidenav - match to sidenav-outer-frame */
+	/* border-left required in IE6 or single line headers won't show up */
+	/* border-top required in Firefox or space is created between header and content-outer-frame */
+	
+
+/* Sidenav */
+#sidenav-outer-frame { float: left; width: 180px; padding-left: 12px; padding-right: 0px; margin-left: 0px; margin-right: 0px; border: 0px solid blue; }
+.sidenav-sub-frame { width: 180px; background-color: #bea376; padding-bottom: 10px; border: 0px solid red; }
+ 
+.sidenav-header { font: 700 14pt arial,sans-serif; margin-top: 18px; border: 0px solid black; }
+.side-title { font: 700 10pt arial,sans-serif; color: #503510; background-color: #bea376; margin-top: 8px; margin-bottom: 10px; }
+.side-title-sub { margin-top: 1px; margin-left: 0px; margin-bottom: 3px; margin-right: 0px; border: 0px solid blue; }
+.sidenav-sub-frame ul { margin-top: 0px; margin-bottom: 0px; margin-left: 0px; list-style-type: none; }
+.side-link { font: 700 .8em arial,sans-serif; line-height: 1.3em; color: #503510; margin-left: 10px; margin-right: 13px; padding-left: 9px; background: url("https://blackhole.erowid.org/blocked.shtml") no-repeat 0px 4px; border: 0px solid blue; }
+	.side-link a:link { color: #603110; text-decoration: none; }
+	.side-link a:visited { color: #603110; text-decoration: none; }
+	.side-link a:hover { color: #3A2009; text-decoration: underline; }
+.side-link2 { font: 700 9pt arial,sans-serif; margin-left: 19px; margin-bottom: 15px; }
+	.side-link2 a:link { color: #503510; text-decoration: none; }
+	.side-link2 a:visited { color: #503510; text-decoration: none; }
+	.side-link2 a:hover { color: #3A2009; text-decoration: underline; }
+.sidenav-join { margin-top: 12px; }

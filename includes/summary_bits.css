@@ -1,0 +1,33 @@
+/* Required - Editable */
+#main-frame { background-color: #061606; border-top: 1px solid black; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #e2e6e2; border-left: 1px solid #e2e6e2; } /* sets background color of content area */
+													     /* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #e2e6e2; } /* sets background color of footer.  set same as content area */
+body { background-color: #e2e6e2; } /* sets background color below footer on short pages.  set same as content area */
+
+#content-outer-frame { font: 10.5pt arial,sans-serif; color: #000e00; } /* set font of content area */
+	a:link { color: #115500; }
+	a:visited {color:  #3a6633; }
+
+
+.title { font: 700 14pt Helvetica,Arial, sans-serif; text-align: center; }
+.title_sub { font: 700 12pt Helvetica,Arial, sans-serif; text-align: center; }
+.author { font: 700 10pt Arial, sans-serif; text-align: center; margin-bottom: 12px; }
+
+.intro { font: 700 8pt Arial,sans-serif; text-align: center; }
+.body { font: 500 9pt Arial,sans-serif; margin-left: 20px; }
+.point { font: 700 9pt Arial,sans-serif; margin-top: 10px; }
+
+.ts-title { font: 700 15pt arial,sans-serif; text-align: center; }
+.ts-title-sub { font: 700 12pt arial,sans-serif; text-align: center; }
+.ts-author { font: 700 10pt arial,sans-serif; text-align: center; margin-top: 0px; }
+.ts-ver-date { font: 700 10pt arial,sans-serif; text-align: center; }
+.ts-space { margin-bottom: 15px; }
+
+/* References */
+.bottom-data-surround { margin-left: 28px; }
+.refs-title { font: 700 9pt Arial, sans-serif; margin-top: 0px; }
+.refs { font: 8pt Arial, sans-serif; margin-bottom: 25px; }
+sup { font: 500 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; }
+
+.inset-text { background-color: #ffffff; border-bottom: 2px solid #111111; border-right: 2px solid #111111; border-top: 1px solid #aaaaaa; border-left: 1px solid #aaaaaa; padding: 25px; margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px; }

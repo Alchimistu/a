@@ -1,0 +1,60 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; line-height: 1.2em; }
+	#message a:link { color: #bbbbbb; }
+	#message a:visited { color: #bbbbbb; }
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+
+
+/* Required - Editable */
+#main-frame { background-color: #d0d0d3; border-top: 1px solid black; height: auto; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #000000; border-left: 1px solid #000000; } /* sets background color of content area */ 
+																					/* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #000000; } /* sets background color of footer.  set same as content area */
+body { background-color: #000000; } /* sets background color below footer on short pages.  set same as content area */
+
+#content-outer-frame { color: #cccccc; } /* set font of content area */
+	a:link { color: #BB9922; }
+	a:visited {color: #BB7700; }
+
+.ts-title-pre { font: 700 14pt arial,sans-serif; text-align: center; }
+.ts-title { font: 700 24pt helvetica,arial,sans-serif; text-align: center; }
+.ts-title-sub { font: 700 14pt arial,sans-serif; text-align: center; margin-bottom: 17px; }
+
+.ts-line { border: 1px solid #777777; margin-bottom: 15px; }
+
+.substance-section { padding-top: 15px;  }
+.substance-chart { margins: 0px; border: 4px solid #dddddd; }
+.cell1 { font: 700 9pt Arial,Sans-serif; padding: 4px 18px 3px 18px; margins: 0px; color: #555555; border: 1px solid #aaaaaa; }
+	.cell1 a:link { color: #BB9922; }
+	.cell1 a:visited {color: #BB7700; }
+.substance-menus { margin-bottom: 25px; }
+	
+	
+.index-links-int { text-align: center; border-top: 2px solid #777777; }
+.index-text-line { margin-bottom: 15px; }
+.index-links-line { }
+.index-links-ext { text-align: center; }
+
+
+
+.quote-center { text-align: center; font: 700 9pt arial,sans-serif; }
+.quote-right { text-align: right; font: 700 9pt arial,sans-serif; }
+.quote-left { text-align: left; font: 700 9pt arial,sans-serif; }
+
+.links-list { margin-top: 25px; }
+.ish { font: 700 11pt helvetica,arial,sans-serif; }
+.pa { font: 500 5pt Arial, sans-serif; vertical-align: middle; color: #666666; text-decoration: none; }
+	.ish a:link { color: #666666; }
+	.ish a:visited { color: #666666; }
+.link-int:after { content: " " url("../images/logo_small_db.gif"); } /* adds logo after local links in mozilla */
+	.more a:link { color: #996633; } /* set font color of more links */
+	.more a:visited { color: #996633; }
+.link-misc { margin-top: 3px; }
+
+.offsite-outer { width: 350; margin-top: 40px; margin-bottom: 5px; margin-left: auto; margin-right: auto; border: 2px solid #888888; }
+.offsite-inner { text-align: center; padding: 4px; margin: 2px; font: 700 11pt helvetica,arial,sans-serif; color: #999999; border: 1px solid #666666; }
+
+.footer-backto { font: 700 8pt arial,sans-serif; text-align: center; }
+.footer1 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer2 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer-copyright { font: 700 .7em arial,sans-serif; color: #000000; }

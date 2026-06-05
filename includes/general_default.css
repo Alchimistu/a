@@ -1,0 +1,282 @@
+/* Page Defaults */
+body { margin: 0; padding: 0; font: 700 15.5px arial,sans-serif; letter-spacing: .01em; line-height: 1.4em; }
+#header-search { font: 500 10px arial,sans-serif; }
+#main-frame { font: 700 1em arial,sans-serif; margin: 0; padding: 0; line-height: 1.4em; }
+#content-messpath-frame { width: 570px; padding-left : 27px; padding-right: 27px; margin-bottom: 15px; border-top: 1px solid transparent; }
+		
+/* Standard (Light Background) Path Colors */
+#path { font: 400 9pt arial,sans-serif; letter-spacing: .07em; margin-top: 6px; padding-top: 5px; padding-left: 10px; padding-bottom: 8px; border: 0px solid pink; background-image: url("../images/backgrounds/bkg_path_line_dark.png"); background-repeat: no-repeat; }
+	#path a:link { color: #ffffff; }
+	#path a:visited { color: #ffffff; }
+.path-chunk { display: inline; color: #ffffff; padding: 5 8 4 8; background-color: #777777; }
+	.path-chunk :link, :visited { text-decoration: none; }
+	/* path background color change and fade */
+	.path-chunk { transition-duration: 0.7s; transition-duration: 0.7s; } /* Fade timing */
+	.path-chunk:hover, .hvr-fade:focus, .hvr-fade:active { background-color: #500034; color: #ffffff; } /* Fade colors */
+	.path-chunk-current { border: 1px solid blue;  }
+	.path-chunk-current:hover, .hvr-fade:focus, .hvr-fade:active { background-color: #777777; color: #ffffff; border: 1px solid blue; } /* No Fade colors */
+
+/* Header messages */
+#message { font: 700 10.5pt arial,sans-serif; letter-spacing: .04em; margin-top: 4px; margin-bottom: 30px; padding-top: 4px; padding-bottom: 3px; padding-left: 4px; padding-right: 4px; border: 0px solid black; }
+	#message :link, :visited { text-decoration: none; }
+#message-inner-lg { font: 700 12pt arial,sans-serif; letter-spacing: .08em; margin: 0px; padding: 1px; color: #000000; text-align: center; text-decoration: none; }
+#message-inner-md { font: 700 10pt arial,sans-serif; letter-spacing: .05em; margin: 0px; padding: 1px; color: #000000; text-align: center; text-decoration: none; }
+#message-inner-sm { font: 700 8.5pt arial,sans-serif; letter-spacing: .01em; margin: 0px; padding: 1px; color: #000000; text-align: center; text-decoration: none; }
+
+
+/* Body */
+#content-body-frame { font: 400 1em arial,sans-serif; line-height: 1.4em; padding-top: 0px; padding-bottom: 37px; padding-left: 27px; padding-right: 27px; border: 0px solid pink; }
+
+.ts-line { margin-bottom: 15px; }
+
+
+/* Standard Headers & Subheaders */
+.h1 { font: 2.4em helvetica,arial,sans-serif; }
+.h1b { font: 700 2.4em arial,sans-serif; }
+.h2 { font: 2.2em helvetica,arial,sans-serif; }
+.h2b { font: 700 2.2em arial,sans-serif; }
+.h3 { font: 2.0em helvetica,arial,sans-serif; }
+.h3b { font: 700 2.0em arial,sans-serif; }
+.h4 { font: 1.8em helvetica,arial,sans-serif; }
+.h4b { font: 700 1.8em arial,sans-serif; }
+.h5 { font: 1.6em helvetica,arial,sans-serif; margin-bottom: 8px; margin-top: 14px; }
+.h5b { font: 700 1.6em arial,sans-serif; }
+.h6 { font: 1.4em arial,sans-serif; margin-bottom: 4px; margin-top: 10px; }
+.h6b { font: 700 1.4em arial,sans-serif; }
+.h7 { font: 700 1.3em arial,sans-serif; margin-bottom: 4px; margin-top: 10px; }
+.h8 { font: 700 1.2em arial,sans-serif; margin-bottom: 2px; margin-top: 6px; }
+.h8u { font: 700 1.2em arial,sans-serif; margin-bottom: 2px; margin-top: 6px; text-decoration: underline; }
+.h9 { font: 700 1.1em arial,sans-serif; }
+.h9u { font: 700 1.0em arial,sans-serif; text-decoration: underline; }
+.h10 { font: 700 1.0em arial,sans-serif; }
+.sub { font-size: .8em; }
+sub { font-size: .8em; vertical-align: -25%; }
+.sup { font: 500 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; margin-left: 0.1em; margin-right: 0.1em; }
+sup { font: 500 .7em arial,sans-serif;  position: relative; font-size: 75%; top:-0.7ex; margin-left: 0.1em; margin-right: 0.1em; }
+
+form { margin-bottom: 0px; }
+.center { text-align: center; }
+
+.image-right { float: right; padding-left: 25px; padding-right: 0px; padding-bottom: 25px; padding-top: 25px; }
+.image-right-top { float: right; padding-left: 25px; padding-right: 0px; padding-bottom: 25px; padding-top: 0px; }
+.image-left { float: left; padding-right: 25px;  padding-left: 0px; padding-bottom: 25px; padding-top: 25px; }
+.image-left-top { float: left; padding-right: 25px;  padding-left: 0px; padding-bottom: 25px; padding-top: 0px; }
+
+.trans { font: 500 10pt arial,sans-serif; text-align: center; margin-bottom: 5px; }
+.trans2 { font: 700 10pt arial,sans-serif; }
+
+.hyperreal_note { font: 700 10pt arial,sans-serif; text-align: center; }
+.old_credits { font: 700 10pt arial,sans-serif; text-align: center; }
+
+
+/* Links */
+.index-links-int { clear: both; text-align: center; }
+.index-links-ext { text-align: center; }
+
+.links-list { margin-top: 25px; }
+.pa { font: 500 .7em arial,sans-serif; vertical-align: middle; color: #555555; text-decoration: none; padding-bottom: 4px; }
+.ish { font: 500 1.3em georgia,"times new roman",serif; letter-spacing: .01em;  }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+.link-int, .link-ext { font: 500 1.0em arial,sans-serif; line-height: 1.5em; }	
+	
+.offsite-outer { width: 350px; margin-top: 40px; margin-bottom: 5px; margin-left: auto; margin-right: auto; border: 2px solid #bbbbdd; }
+.offsite-inner { padding: 4px; margin: 2px; font: 700 11pt helvetica,arial,sans-serif; color: #c0c0bb; border: 1px solid #bbbbdd; }
+
+.quote-center { text-align: center; font: 700 9pt arial,sans-serif; }
+.quote-right { text-align: right; font: 700 9pt arial,sans-serif; }
+.quote-left { text-align: left; font: 700 9pt arial,sans-serif; }
+
+
+/* Footer */
+#footer-frame { bottom: 0px; margin-bottom: 0px; padding-bottom: 9px; clear: both; border: 0px solid lime; }
+#footer-menu { font: 700 9px arial,sans-serif; }
+#menu31 { font: 700 9px arial,sans-serif; } /* Created by mmenu.js this fixes error in footer menu display */
+.footer-backto {  font: 700 .8em arial,sans-serif; padding-bottom: 5px; padding-top: 2px; border-top: 1px solid black; text-align: center; }
+.footer1 { font: 700 8pt arial,sans-serif; color: #aaaaaa; } /* Last Modified */
+.footer2 { font: 700 8pt arial,sans-serif; color: #aaaaaa; padding-right: 10px; } /* Created By */
+.footer3 { font: 700 10pt arial,Sans-serif; } /* Back To ... */
+.footer-copyright { font: 700 .7em arial,sans-serif; text-align: center; padding-top: 3px; border: 0px solid green; }
+.correction-nomenu { font: 700 8pt arial,sans-serif; padding-top: 3px; color: #bbbbbb; }
+	.correction-nomenu a:link { color: #bbbbbb; }
+	.correction-nomenu a:visited { color: #bbbbbb; }
+
+
+/* basic erowid lib classes */
+.erowidlib-error { font: 700 11pt arial, Sans-serif; color: yellow;}
+
+#switchDiv { font: 500 9pt arial; color: black;  position:absolute; right: 4px; top: 4px; padding:1px;}
+
+#redirected-message {  position:relative; border: 2px dotted black; margin: auto; width:250px; color: #330000; background-color: #c0c0c0;}
+
+/* Default Buttons */
+.button-default { font: 500 9pt helvetica,arial,sans-serif; height: 22px; }
+.button-default { padding: 0px; margin: 0px; }
+.button-default {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #d1d1d1) );
+	background:-moz-linear-gradient( center top, #f0f0f0 5%, #d1d1d1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#d1d1d1');
+	background-color:#f0f0f0;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #aaaaaa;
+	display:inline-block;
+	color:#222222;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	height:24px;
+	line-height:22px;
+	width:115px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.button-default:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d1d1d1), color-stop(.9, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #d1d1d1 5%, #f0f0f0 90% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1d1d1', endColorstr='#f0f0f0');
+	background-color:#d1d1d1;
+}.button-default:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Header Message Buttons */
+
+.button-message { font: 500 9pt helvetica,arial,sans-serif; height: 22px; }
+.button-message { padding: 0px; margin: 0px; }
+.button-message {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f4f4f4), color-stop(1, #dddddd) );
+	background:-moz-linear-gradient( center top, #f4f4f4 10%, #dddddd 90% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#dddddd');
+	background-color:#f4f4f4;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #aaaaaa;
+	display:inline-block;
+	color:#222222;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	height:24px;
+	line-height:22px;
+	width:115px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.button-message:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dddddd), color-stop(.9, #f4f4f4) );
+	background:-moz-linear-gradient( center top, #dddddd 10%, #f4f4f4 90% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#f4f4f4');
+	background-color:#dddddd;
+}.button-message:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Campaign Thermomter */
+ .thermometer {
+    display: inline-block;
+    background-color: #ffbb00;
+    width: 80px;
+    height: 80px;
+    border: none;
+    padding: 0em;
+    margin: 0em;
+    position: relative;
+ }
+.thermometer > * { border: none; padding: 0px; margin: 0px; position: absolute; }
+	.thermometer img { left: 0px; bottom: 0px; width: 100%; height: 100%;}
+	.thermometer .value {
+	    color: black;
+	    font: 500 0.95em arial,sans-serif;
+	    left: 38px;
+	}
+	.thermometer .value.max { top: 4px; }
+	.thermometer .value.min { bottom: 19px; }
+	.thermometer .frame { width: 10px; left: 17px; bottom: 26px; height: 50px; border-radius: 4px 4px 0px 0px; overflow: hidden; }
+	.thermometer .frame.empty { background-color: white; }
+	.thermometer .fill.bar { position: absolute; bottom: 0px;
+				 /*width: 10px; */
+				 width: 100%;
+		background: #8e5959;
+		background: -moz-linear-gradient(left, #8e5959 0%, #ffcaca 10%, #d60000 40%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8e5959), color-stop(10%,#ffcaca), color-stop(40%,#d60000));
+		background: -webkit-linear-gradient(left, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		background: -o-linear-gradient(left, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		background: -ms-linear-gradient(left, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		background: linear-gradient(to right, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e5959', endColorstr='#d60000',GradientType=1 );
+      }
+.thermometer2 { display: inline-block; background-color: #aadd00; width: 80px; height: 80px; border: none; padding: 0em; margin: 0em; position: relative; }
+.thermometer2 > * { border: none; padding: 0px; margin: 0px; position: absolute; }
+	.thermometer2 img { left: 0px; bottom: 0px; width: 100%; height: 100%;}
+	.thermometer2 .value {color: black; font: 500 7pt arial,sans-serif; left: 33px;}
+	.thermometer2 .value.max { top: 5px; }
+	.thermometer2 .value.min { bottom: 23px; }
+	.thermometer2 .frame {width: 9px; left: 16px; bottom: 25px;height:51px;border-radius: 3px 3px 0px 0px; overflow: hidden;}
+	.thermometer2 .frame.empty {background-color: white; }
+	.thermometer2 .fill.bar { position: absolute; bottom: 0px;
+				  /* width: 10px;*/ width: 100%;
+		background: #8e5959;
+		background: -moz-linear-gradient(left, #8e5959 0%, #ffcaca 10%, #d60000 40%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#8e5959), color-stop(10%,#ffcaca), color-stop(40%,#d60000));
+		background: -webkit-linear-gradient(left, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		background: -o-linear-gradient(left, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		background: -ms-linear-gradient(left, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		background: linear-gradient(to right, #8e5959 0%,#ffcaca 10%,#d60000 40%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e5959', endColorstr='#d60000',GradientType=1 );
+      }	
+.thermometer_tall { display: inline-block; background-color: #ffbb00; width: 109px; height: 200px; border: none; padding: 0em; margin: 0em; position: relative; }
+.thermometer_tall > * { border: none; padding: 0px; margin: 0px; position: absolute; }
+	.thermometer_tall img { left: 0px; bottom: 0px; width: 100%; height: 100%;}
+	.thermometer_tall .value { color: black; font: 500 .85rem arial,sans-serif; left: 47px; }
+	.thermometer_tall .value.max { top: 9px; } /* where top number appears */
+	.thermometer_tall .value.min { bottom: 39px; } /* where bottom number appears */
+	.thermometer_tall .frame { width: 15px; left: 21px; bottom: 47px; height: 144px; border-radius: 6px 6px 0px 0px; overflow: hidden; }
+	.thermometer_tall .frame.empty { background-color: #eeffee; }
+	.thermometer_tall .fill.bar { position: absolute; bottom: 0px;
+				      /* width: 13px; */ width: 100%;
+		background: #99bb99;
+		background: -moz-linear-gradient(left, #99bb99 0%, #44aa44 10%, #00bb00 40%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,#99bb99), color-stop(10%,#44aa44), color-stop(40%,#00bb00));
+		background: -webkit-linear-gradient(left, #99bb99 0%,#44aa44 10%,#00bb00 40%);
+		background: -o-linear-gradient(left, #99bb99 0%,#44aa44 10%,#00bb00 40%);
+		background: -ms-linear-gradient(left, #99bb99 0%,#44aa44 10%,#00bb00 40%);
+		background: linear-gradient(to right, #99bb99 0%,#44aa44 10%,#00bb00 40%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99bb99', endColorstr='#00bb00',GradientType=1 );
+	}

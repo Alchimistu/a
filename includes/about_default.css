@@ -1,0 +1,216 @@
+/* Required - Don't Edit */
+#main-frame { background-color: #666666; border: 0px solid white; line-height: 1.2em; }
+#content-outer-frame { font: 400 1em arial,sans-serif; color: #000000; background-color: #f1f1f5; border-left: 0px solid #000000; } 
+	/* sets colors of main content area */
+	/* border-left required in IE6 or single line headers won't show up */
+	a:link { color: #110077; }
+	a:visited {color: #3a3366; }
+#message {}
+	#message a:link { color: #990000; }
+	#message a:visited { color: #990000; }
+
+
+/* Required - Editable */
+#footer-frame { background-color: #f1f1f5; } /* sets background color of footer.  set same as content area */
+body { background-color: #f1f1f5;} 
+	/* sets background color below footer on short pages.  set same as content area */
+#content-messpath-frame { padding-left: 8px; border: 0px solid purple; } 
+	/* sets body-sub-frames to correct position for pages without titles */
+#content-body-frame { font: 400 1em arial,sans-serif; line-height: 1.4em; padding-left: 12px; padding-right: 15px; }
+
+
+/* Body */
+.title-section { margin-bottom: 30px; }
+.ts-title-pre { font: 700 10pt arial,sans-serif; }
+.ts-title { font: 500 2.1em georgia,"times new roman",serif; }
+.ts-title-sub {  font: 700 1.1em arial,sans-serif; padding-top: 3px; }
+.ts-citation { font: 500 9pt arial,sans-serif; border-top: 2px solid #552222; border-bottom: 2px solid #552222; padding-top: 5px; padding-bottom: 6px; margin-top: 25px; }
+
+.content-section { font: 400 1em arial,sans-serif; line-height: 1.4em; border-top: 0px solid #552222; padding-top: 0px; } /* set border color same as ts-citation */
+
+.h8u { font: 700 1.1em arial,sans-serif; text-decoration: underline; margin-top: 20px; }
+.h9 { font: 700 1.1em arial,sans-serif; margin-top: 25px; margin-bottom: 3px; }
+.announce1 { font: 700 9pt arial,sans-serif; color: #332222; }
+.about-index { font: 500 1em arial,sans-serif; line-height: 1.4em; }
+.button { font: 600 8pt arial,sans-serif; }
+.small { font: 500 7pt arial,sans-serif; }
+	.software-type a:link { color: #777777; }
+	.software-type a:visited { color: #777777; }
+	.faq-question a:link { color: #777777; }
+	.faq-question a:visited { color: #777777; }
+
+	
+/* Links */
+.index-links-int { clear: none; text-align: left; }
+.index-links-ext { text-align: left; }
+
+.links-list { margin-top: 25px; }
+.pa { font: 700 5pt arial,sans-serif; vertical-align: middle; color: #777777; text-decoration: none; padding-bottom: 4px;}
+.ish { font: 700 10pt helvetica,arial,sans-serif; }
+	.ish a:link { color: #888888; }
+	.ish a:visited { color: #888888; }
+.link-int, .link-ext { font: 500 10pt arial,sans-serif; }	
+
+
+/* ANNOUNCEMENTS */		
+.announce-year { font: 700 13pt times,serif; margin-top: 15px; margin-bottom: 4px; }
+.announce-entry { font: 500 11pt arial,sans-serif; margin-left: 20px; padding-bottom: 4px; }
+
+/* CITATIONS */
+.citation-table { margin-left: 20px; margin-top: 10px; }
+.citation-type { font: 700 9pt arial,sans-serif; margin-top: 20px; margin-bottom: 5px; text-decoration: underline; }
+.citation-style { font: 700 9pt arial,sans-serif; vertical-align: top; }
+.citation-example { font: 500 8pt arial,sans-serif; padding-bottom: 8px; }
+
+/* CONTACT */
+.contact-category { font: 700 9pt arial,sans-serif; margin-bottom: 5px; margin-top: 20px; }
+.contact-desc { font: 500 9pt arial,sans-serif; margin-bottom: 10px; margin-left: 15px; }
+.contact-link { font: 700 9pt arial,sans-serif; margin-left: 15px; }
+.contact-link2 { font: 500 9pt arial,sans-serif; margin-left: 15px; }
+
+/* CONTRIBUTORS */
+.contrib-level { font: 700 11pt arial,sans-serif; width: 560px; margin-bottom: 4px; padding: 5 5 5 5; text-transform: uppercase; border: 1px solid #9999AA; background-color: #bbbbcc; }
+.contrib-level-founding { font: 700 10pt arial,sans-serif; width: 560px; margin-bottom: 5px; padding-left: 5px; text-transform: uppercase; border: 1px solid #888899; background-color: #aaaacc; }
+.contrib-person-surround { width: 570px; margin-left: 0px; margin-bottom: 18px; margin-right: 0px; padding-top: 1px; padding-bottom: 0px; border: 0px solid blue; } 
+	.contrib-person-surround a:link { color: #222288; }
+	.contrib-person-surround a:visited { color: #222288; }
+.contrib-person, .contrib-person-space { font: 500 10pt arial,sans-serif; float: left; width: 270px; margin-bottom: 4px; margin-left: 6px; letter-spacing: .05em; padding: 2px; padding-left: 3px; color: #221144; background-color: #dbdbdf; border: 1px solid #bbbbcc; }
+.contrib-person-space { background-color: transparent; border: 1px solid #dadafa; }
+.contrib-inkind { font: 500 10pt arial,sans-serif; float: left; width: 554px; margin-bottom: 4px; margin-left: 6px; letter-spacing: .05em; padding: 2px; padding-left: 3px; color: #221144; background-color: #dbdbdf; border: 1px solid #bbbbcc; }
+.contrib-bottom { font: 700 9pt arial,sans-serif; margin-top: 20px; }
+
+/* COPYRIGHTS */
+.copyright-section { font: 700 9pt arial,sans-serif; margin-top: 15px; margin-bottom: 6px; text-decoration: underline; }
+.copyright-type-list dt { margin-top: 20px; }
+.copyright-type-title { font: 700 9.5pt arial,sans-serif; display: inline; margin-left: 15px; }
+.copyright-subtype-list { font: 500 9pt arial,sans-serif; margin-left: 15px; margin-top: 7px; }
+.copyright-subtype-entry { font: 500 9pt arial,sans-serif; margin-bottom: 3px; }
+.copyright-subtype-title { font: 700 8pt arial,sans-serif; display: inline; letter-spacing: .05em; }
+.copyright-body { font: 500 9pt arial,sans-serif; margin-bottom: 13px; margin-left: 15px; }
+
+/* EXTRACTS */
+.extracts-index { font: 9pt arial,sans-serif; width: 360px; }
+	.extracts-index a:link { color: #661111; }
+	.extracts-index a:visited { color: #661111; }
+.extracts-index tr { height: 21px; }
+	.extracts-image a:link { color: #000000; }
+	.extracts-image a:visited { color: #000000; }
+.extracts-page { text-align: right; vertical-align: top; width: 30px; }
+
+/* FAQ */
+.faq-index-section { font: 700 11.5pt arial,sans-serif; text-decoration: none; margin-top: 18px; padding-bottom: 3px; }
+.faq-index-question { font: 500 10.5pt arial,sans-serif; margin-left: 10px; line-height: 19px; }
+.faq-section { font: 700 11pt arial,sans-serif; text-decoration: underline; margin-top: 16px; margin-bottom: 12px; }
+.faq-question { font: 700 10.5pt arial,sans-serif; }
+
+/* GRAPHICS & FLYERS */
+.graphic-designer { font: 700 9pt arial,sans-serif; margin-left: 10px;  }
+
+/* MENTIONS */		
+.mentions-surround { font: 500 9pt arial,sans-serif; border: 0px solid blue; }
+.mentions-surround .year { font: 700 13pt times,serif; text-align: left; padding: 4px; padding-left: 5px; padding-top: 6px; margin-top: 16px; margin-bottom: 4px; background-color: #bbaaaa;  }
+.mentions-surround .entry { margin-top: 2px; padding: 2px; font: 500 10pt arial,sans-serif; background-color: #dadada; border: 1px solid blue; }
+.mentions-surround .date { width: 53px; vertical-align: top; border: 0px solid red; }
+.mentions-surround .type { width: 64px; vertical-align: top; border: 0px solid red; }
+.mentions-surround .title { width: 600px;vertical-align: top; border: 0px solid green; }
+.mentions-surround .source { width: 450px; vertical-align: top; font: 500 10pt arial,sans-serif; border: 0px solid red; }
+
+/*
+.mentions-surround { font: 500 9pt arial,sans-serif; border: 0px solid blue; }
+.mentions-surround .year { font: 700 13pt times,serif; padding: 3px; padding-left: 4px; margin-top: 16px; margin-bottom: 4px; background-color: #bbaaaa;  }
+.mentions-surround .entry { margin-top: 2px; padding: 1px; background-color: #dadada; border: 0px solid green; }
+.mentions-surround .date { float: left; width: 50px; margin-left: 9px; border: 0px solid red; }
+.mentions-surround .type { float: left; width: 70px; margin-left: 20px; border: 0px solid red; }
+.mentions-surround .title { float: left; width: 500px; margin-left: 50px; font: 500 10pt arial,sans-serif; border: 1px solid green; }
+.mentions-surround .source { display: inline; width: auto; margin-left: 5px; font: 500 9pt arial,sans-serif; border: 1px solid red; }*/
+
+.mentions-surround .comment-tr { display:none;}
+.mentions-surround .comment { }
+
+/* CSS-based Tooltips
+------------------------------------------------------------------*/
+img.CommentIcon	{
+	width: 12px;
+	height: 12px;
+	border: 0;
+	padding: 0 0 0 3px;
+}
+a.info	{
+    position: relative; /*this is the key*/
+    z-index: 24;
+    color: #000;
+    text-decoration: none;
+}
+
+a.info:hover	{
+	z-index: 25; 
+}
+
+a.info span	{ display: none; }
+
+a.info:hover span	{ /*the span will display just on :hover state*/
+    display: block;
+    position: absolute;
+    top: 24px; 
+    left: 10px; 
+    width: 280px;
+    border: 1px solid #666666;
+    background-color: #ffffcc; 
+    color: #000;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    white-space: normal;
+    text-align: left;
+    left: -230px;
+
+}
+a.info:hover span.DisplayLeft	{
+    left: -180px; 
+    white-space: normal;
+}    
+
+
+
+/* SURVEYS */		
+.survey-surround { border: 0px solid blue; }
+	.survey-surround .column1 { float: left; width: 130px; font: 700 12pt times,serif; text-decoration: underline; border: 0px solid red; }
+	.survey-surround .column2 { float: left; width: 45px; font: 700 12pt times,serif; text-decoration: underline; }
+	.survey-surround .column3 { margin-left: 180px; font: 700 12pt times,serif; text-decoration: underline; }
+.survey-surround .year { font: 700 12pt times,serif; margin-top: 18px; margin-bottom: 4px; }
+.survey-surround .row { margin-top: 3px; }
+.survey-surround .date { float: left; width: 95px; margin-left: 8px; text-align: left; font: 500 9pt arial,sans-serif; border: 0px solid red; }
+.survey-surround .responses { float: left; width: 45px; margin-left: 8px; text-align: right; font: 500 9pt arial,sans-serif; border: 0px solid blue; }
+.survey-surround .description { margin-left: 180px; width: auto; font: 500 9pt arial,sans-serif; border: 0px solid green; }
+
+/* SOFTWARE */
+.software-type { font: 700 12pt arial,sans-serif; text-decoration: underline; margin-top: 10px; margin-bottom: 6px; }
+.software-title { font: 700 10pt arial,sans-serif; }
+.software-body { margin-left: 10px; }
+
+/* SUBMISSIONS */
+.submit-type-title { font: 700 10pt arial,sans-serif; padding-top: 8px; padding-bottom: 3px; }
+.submit-type-text { font: 500 9pt arial,sans-serif; padding-left: 10px; padding-bottom: 10px; }
+.submit-step-title { font: 700 9pt arial,sans-serif; text-decoration: underline; padding-top: 8px; padding-bottom: 6px; }
+.submit-step-text { font: 500 8pt arial,sans-serif; padding: 2px; padding-bottom: 4px; }	
+.submit-step-text2 { font: 500 8pt arial,sans-serif; padding: 2px; padding-bottom: 10px; }	
+.submit-browse { font: 500 8pt arial,sans-serif; padding-bottom: 14px; }
+.submit-browse2 { font: 500 8pt arial,sans-serif; padding-bottom: 6px; }
+
+.submit-rlink-table .cell1 { width: 30px; }
+.submit-rlink-table .cell2 { width: 180px; }
+.submit-rlink-table .cell3 { width: 280px; }
+.submit-rlink-title { font: 700 9pt arial,sans-serif; text-decoration: underline; padding-top: 16px; padding-bottom: 6px; }
+.submit-rlink-text { font: 500 8pt arial,sans-serif; padding-top: 4px; padding-bottom: 4px; }
+
+.submit-link-table .cell1 { width: 30px; }
+.submit-link-table .cell2 { width: 180px; }
+.submit-link-table .cell3 { width: 280px; }
+.submit-link-title { font: 700 9pt arial,sans-serif; text-decoration: underline; padding-top: 16px; padding-bottom: 6px; }
+.submit-link-text { font: 500 8pt arial,sans-serif; padding-top: 4px; padding-bottom: 4px; }
+
+.submit-article-table .cell1 { width: 30px; }
+.submit-article-table .cell2 { width: 110px; }
+.submit-article-table .cell3 { width: 280px; }
+.submit-article-title { font: 700 9pt arial,sans-serif; text-decoration: underline; padding-top: 16px; padding-bottom: 6px; }
+.submit-article-text { font: 500 8pt arial,sans-serif; padding-top: 4px; padding-bottom: 4px; }

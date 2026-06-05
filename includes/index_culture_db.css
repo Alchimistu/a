@@ -1,0 +1,72 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; line-height: 1.2em; }
+	#message a:link { color: #ffdd00; }
+	#message a:visited { color: #ffdd00; }
+#path { background-image: url("../images/backgrounds/bkg_path_line_light.png"); }
+
+
+/* Required - Editable */
+#main-frame { background-color: #000000; border-top: 1px solid black; height: auto; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #000000; border-left: 1px solid #000000; } /* sets background color of content area */ 
+																					/* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #000000; } /* sets background color of footer.  set same as content area */
+body { background-color: #000000; } /* sets background color below footer on short pages.  set same as content area */
+
+#content-outer-frame { color: #bbccbb; } /* set font color of content area */
+	a:link { color: #669966; }
+	a:visited {color: #6a8c8c; }
+
+.ts-title-pre { font: 700 14pt arial,sans-serif; text-align: center; }
+.ts-title { font: 700 24pt helvetica,arial,sans-serif; text-align: center; }
+.ts-title-sub { font: 700 14pt arial,sans-serif; text-align: center; margin-bottom: 17px; }
+
+.index-text-outer { border-top: 2px solid #777777; padding-top: 15px; padding-bottom: 4px; margin-bottom: 20px; }
+.index-links-int { text-align: center; border-top: 2px solid #777777; }
+.index-text-line { margin-bottom: 15px; }
+.index-links-line { }
+.index-links-ext { text-align: center; }
+
+.ts-line { border: 1px solid #777777; margin-bottom: 15px; }
+
+.quote-center { text-align: center; font: 700 9pt arial,sans-serif; }
+.quote-right { text-align: right; font: 700 9pt arial,sans-serif; }
+.quote-left { text-align: left; font: 700 9pt arial,sans-serif; }
+
+.links-list { margin-top: 25px; }
+.ish { font: 700 11pt helvetica,arial,sans-serif; }
+.pa { font: 500 5pt Arial, sans-serif; vertical-align: middle; color: #555555; text-decoration: none; }
+	.ish a:link { color: #555555; }
+	.ish a:visited { color: #555555; }
+.link-int, .link-ext, .non-link { } /* sets non-linked text in links-lists */	
+.link-int:after { content: " " url("../images/logo_small_db.gif"); } /* adds logo after local links in mozilla */
+	.more a:link { color: #8888aa; } /* set font color of more links */
+	.more a:visited { color: #8888aa; }
+
+.offsite-outer { width: 350; margin-top: 40px; margin-bottom: 5px; margin-left: auto; margin-right: auto; border: 2px solid #bbbbdd; }
+.offsite-inner { text-align: center; padding: 4px; margin: 2px; font: 700 11pt helvetica,arial,sans-serif; color: #bbbbdd; border: 1px solid #bbbbdd; }
+
+
+/* Footer */
+.footer-backto { font: 700 8pt arial,sans-serif; text-align: center; }
+.footer1 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer2 { font: 700 8pt arial,sans-serif; color: #aaaaaa; }
+.footer-copyright { font: 700 .7em arial,sans-serif; color: #aaaaaa; }
+
+/* This is a test for Milonic 5 */
+/*.footer3 { font: 700 8pt arial,sans-serif; padding-top: 4px; color: #aaaaaa; }  
+	.footer3 a:link { color: #aaaaaa; }
+	.footer3 a:visited { color: #aaaaaa; }*/
+
+/* Required - Defines Index Page Special Column Format  */
+.index-cols-line { }
+.index-links-cols { text-align: center; border: 0px solid red; }
+.links-cols-container1 { width: 260px; margin-left: auto; margin-right: auto; padding-top: 6px; padding-bottom: 6px; border: 0px solid blue; }
+.links-cols-container2 { width: 555px; text-align: center; margin-left: auto; margin-right: auto; padding-top: 6px; padding-bottom: 6px; border: 0px solid orange; }
+.links-cols-float { float: left; display: inline; width:250px; margin-top: 6px; margin-bottom: 6px; margin-left: 12px; margin-right: 12px; text-align: left; border: 0px solid yellow; }
+.links-cols-title { font: 700 10pt arial,sans-serif; padding-bottom: 1px; padding-top: 1px; border-bottom: 2px solid #bbccbb; border-right: 1px solid #bbccbb; }
+.links-cols-title2 { width: 223px; float: left; }
+	.links-cols-title a:link { color: #bbccbb; }
+	.links-cols-title a:visited { color: #bbccbb; }
+.links-cols-arrows { font: 700 8.5pt helvetica,arial,sans-serif; width: auto; margin-right: 1px; padding-bottom: 2px; position: relative; top: -2px; border: 0px solid blue; }
+.links-cols-description { font: 700 8.5pt arial,sans-serif; padding: 0px; color: #999933; margin-top: 2px; border: 0px solid purple; }
+.clear { clear: both; }

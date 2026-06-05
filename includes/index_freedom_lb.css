@@ -1,0 +1,26 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; }
+	#message a:link { color: #990000; }
+	#message a:visited { color: #990000; }
+
+.ts-title-pre { font: 700 14pt arial,sans-serif; text-align: center; }
+.ts-title { font: 700 24pt helvetica,arial,sans-serif; text-align: center; }
+.ts-title-sub { font: 700 14pt arial,sans-serif; text-align: center; margin-bottom: 17px; }
+
+.index-text-outer { border-top: 2px solid #777777; padding-top: 15px; padding-bottom: 4px; margin-bottom: 20px; }
+.index-links-int { text-align: center; border-top: 2px solid #777777; }
+.index-text-line { margin-bottom: 15px; }
+.index-links-line { }
+.index-links-ext { text-align: center; }
+
+.ts-line { border: 1px solid #777777; margin-bottom: 15px; }
+
+.quote-center { text-align: center; font: 700 9pt arial,sans-serif; }
+.quote-right { text-align: right; font: 700 9pt arial,sans-serif; }
+.quote-left { text-align: left; font: 700 9pt arial,sans-serif; }
+
+
+/* Timely Message */
+.timely-message-surround { }	
+.timely-message { font: 700 10pt arial,sans-serif; letter-spacing: .05em; width: 700px; margin-right: auto; margin-left: auto; margin-top: 25px; padding-top: 4px; padding-bottom: 4px; border-top: 2px solid #000091; border-bottom: 2px solid #000091; }
+

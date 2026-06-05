@@ -1,0 +1,29 @@
+/* Required - Don't Edit */
+#main-frame { border: 0px solid white; }
+	#message a:link { color: #990000; }
+	#message a:visited { color: #990000; }
+
+	
+/* Required - Editable */
+#main-frame { background: url("../images/backgrounds/bkg_border_flower_brown.jpg") repeat-y top left transparent; background-color: #ebe9e5; border-top: 1px solid black; } /* sets background color of default sidenav or border */
+#content-outer-frame { background-color: #f1f1f5; border-left: 1px solid #f1f1f5; } 
+	/* sets background color of content area */
+	/* border-left required in IE6 or single line headers won't show up */
+#footer-frame { background-color: #f1f1f5; } /* sets background color of footer.  set same as content area */
+body { background-color: #f1f1f5; } /* sets background color below footer on short pages.  set same as content area */
+	
+#content-outer-frame { } /* set font of content area */
+	a:link { color: #110066; }
+	a:visited {color:  #3a3366; }
+
+
+/* Body */	
+.pullquote-left1 { float: left; width: 250px; padding: 5px; margin-top: 5px; margin-bottom: 5px;  margin-right: 13px;  border-top: 2px solid #222222; border-bottom: 2px solid #222222;}
+.pullquote-right1 { float: right; width: 250px; padding: 5px; margin-top: 5px; margin-bottom: 5px;  margin-left: 13px; border-top: 2px solid #222222; border-bottom: 2px solid #222222;}
+.pullquote-text { font: 700 11pt Trebuchet, Arial, sans-serif; text-align: justify; color: #222222; }
+.pullquote-sig { font: 700 10pt Trebuchet, Arial, sans-serif; text-align: right; color: #222222; padding-top: 4px; }
+
+.sidebar1 { margin: 10px; }
+.sidebar1-title { font: 700 11pt trebuchet,arial,sans-serif; background-color: #000000; color: #ffffff; text-align: center; }
+.sidebar1-text { font: 500 10pt helvetica,arial,sans-serif; background-color: #bbbbbb; color: #000000; text-align: left; }
+.sidebar1-credit { font: 500 8pt helvetica,arial,sans-serif; background-color: #bbbbbb; color: #000000; text-align: left; margin-left: 40px; }
