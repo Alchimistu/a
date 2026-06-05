@@ -18,15 +18,15 @@ pediculicide. Metabolism studies: Oswald et al., Biochim. Biophys. Acta 230, 237
 Toxicity data: Hagan et al., Toxicol. Appl. Pharmacol. 7, 18 (1965).
 Review of carcino genic risk: IARC Monographs 10, 231-241 (1976).
 
-Properties:  Colorless or slightly yellow liq; sassafras odor. d(20) 1.096 . mp ~11° .
-bp 232-234° . n(20,D) 1.5383 . Insol in water. Very sol in alcohol. Miscible with
+Properties:  Colorless or slightly yellow liq; sassafras odor. d(20) 1.096 . mp ~11Â° .
+bp 232-234Â° . n(20,D) 1.5383 . Insol in water. Very sol in alcohol. Miscible with
 chloroform, ether. LD50 in rats, mice ( mg/kg ): 1950 , 2350 orally (Hagan) .
 
 Density: d(20) 1.096
 
-Boiling point: bp 232-234°
+Boiling point: bp 232-234Â°
 
-Melting Point: ~11°
+Melting Point: ~11Â°
 
 Refraction index: n(20,D) 1.5383
 
@@ -36,5 +36,6 @@ Seventh Annual Report on Carcinogens (PB95-109781, 1994) p 355.
 USE: In perfumery; denaturing fats in soap manuf; also in manuf of heliotropin.
 
 
+-----------------------------------------------
 -----------------------------------------------
 THE MERCK INDEX on CD-ROM / Version 12:3 / 1999
